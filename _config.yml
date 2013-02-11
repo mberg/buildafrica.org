@@ -1,0 +1,16 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+auto: true
+rdiscount:
+  extensions: [smart]
+
+name: Build Africa
+url: http://buildafrica.org
+description: BuildAfrica.org is my personal blog which focuses primarily on the convergence of the two passions in my life - technology and Africa.
+twitter: mberg
+github: mberg
+gravatar_url: http://gravatar.com/avatar/1bccce72e2d2144b9ff5ef17e8d8d239
+
+
+ 

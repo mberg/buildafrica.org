@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      BuildAfrica.org &ndash;
+    
+    Build Africa
+  </title>
+
+  <meta name="author" content="Build Africa" />
+  <meta name="description" content="BuildAfrica.org is my personal blog which focuses primarily on the convergence of the two passions in my life - technology and Africa." />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <img src="http://gravatar.com/avatar/1bccce72e2d2144b9ff5ef17e8d8d239?s=150" height="75" width="75" class="avatar" />
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="fname">Build</span>
+        <span id="lname">Africa</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/mberg" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/mberg" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/about.html">about</a></li>
+        <li><a href="/posts.html">posts</a></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="content">
+  
+    <div class="post">
+        <h3><a href="/posts/2011-m4d-tech-trends">M4D Tech Trends 2011: What to expect and hope for</a></h3>
+      
+        <div class="body">
+            <p><strong>Commoditization of Mobile Based Data Collection</strong></p>
+
+<p>With the growth and maturation of XForm authoring tools and mobile clients like <a href="http://opendatakit.org/">ODK</a> (my choice for best/most important mobile tool in 2010), it&rsquo;s getting increasingly easy to do robust mobile based data collection.   In 2011, expect the focus to shift towards building out web backends that provide support for unified data collection (Xforms, SMS, USSD, IVR) with greatly improved analytic and reporting capabilities.   As a result, expect to see a lot more turnkey tools/services similar to <a href="http://opendatakit.org/">EpiSurveyor.org</a>.  I wouldn&rsquo;t be shocked even to see Google offer something in this space.</p>
+
+<p><strong>First Steps with IVR</strong></p>
+
+<p>Focus will start to shift from SMS to IVR as mHealth programs expand from service providers to beneficiaries where literacy is a lingering concern.  While <a href="http://voice.opendatakit.googlecode.com/hg/war/doc/help.html">ODK Voice</a> shows a lot of initial promise and <a href="http://www.freedomfone.org/">Freedom Fone</a> continues to be worth a look,  there remains a lot of room for a new open-source tool in this space.   My guess is that it’ll be built using <a href="http://www.freeswitch.org/">FreeSwitch</a> (not <a href="http://www.asterisk.org/">Asterisk</a>) to support a local webservice offering similar, albeit more limited, functionalities to <a href="http://www.twilio.com/">Twilio</a> or <a href="http://www.voxeo.com/">Voxeo</a>.</p>
+
+<p><strong>REST APIs for OpenMRS</strong></p>
+
+<p>If you&rsquo;ve ever developed an mHealth application, you quickly realize you really don&rsquo;t want to build your own medical record system.  Things get complicated very quickly which is why the existence of platforms like <a href="http://www.openmrs.org">OpenMRS</a> is a very good thing.   OpenMRS, however,  has been strongly hindered by a lack of  web API&rsquo;s which makes building applications upon it difficult.  This in turn has greatly limited the scope of how OpenMRS has currently been used.  REST APIs are on the road map for v1.9 coming later this spring.   With robust APIs, OpenMRS should be more accessible and flexible as a platform and in turn greatly expand it&rsquo;s community of users.  Until then, I like many potential users, will continue to dip my toes in the water despite wanting to dive in.  If by 2012, I&rsquo;m still waiting, I&rsquo;ll probably start looking for a new swimming hole.</p>
+
+<p><strong>XForms and CouchDB</strong></p>
+
+<p>Expect to hear this combo increasingly.  They just make a lot of sense together.</p>
+
+<p><strong>Direct to Client Services First  to Reach Scale</strong></p>
+
+<p>Direct to client programs that incorporate SMS, USSD, IVR and &ldquo;Please Call Me&rsquo;s&rdquo; could start to reach scale in 2011 that could reach into the millions.  Groups like  <a href="http://www.texttochange.org/">Text to Change</a> and the <a href="http://www.praekeltfoundation.org/">Praekelt Foundation</a> are starting to receive the funding necessary  to bring their approaches to the masses.  If positive impacts can be shown at scale, we&rsquo;ll see rapid growth as donor&rsquo;s jump into this space.</p>
+
+<p><strong>Building Block Webservices</strong></p>
+
+<p>There will continue to be a lot of talk around the need of an &ldquo;enterprise architecture&rdquo; in mHealth.  While good, I think the growth towards this will be organic in the form of common web services that will attempt to bring order to the increasingly fractured mHealth ecosystem emerging in many countries.   This would include services like a central mother and child registry providing each beneficiary a unique ID allowing them to be tracked across the health system.  I&rsquo;m not sure such a service could be built or deployed by the end of 2011 but the realization for the need of such a service will likely grow.</p>
+
+<p><strong>Community Health Platforms</strong></p>
+
+<p>Expect to see a lot less discussion about the differences in particular platforms (<a href="http://www.dimagi.com/commcare/">CommCare</a>, <a href="http://www.childcount.org">ChildCount+</a>, <a href="http://medicmobile.org/">FrontlineSMS:Medic</a>, <a href="http://projectmwana.posterous.com/">Mwana</a>, <a href="http://www.grameenfoundation.applab.org/section/ghana-health-worker-project">MoTeCH</a>) and a lot more on more discusion on content and methodologies.   In terms of functionality and to some extent underlying technology, many elements of the different platforms will converge.  As the tools improve, the challenge really shifts to figuring what works and what doesn&rsquo;t and how can technology best be used to create value.  As a result, the realtime sharing of experiences, like on the incredible <a href="http://groups.google.com/group/ict4chw?pli=1">ICT4CHW</a> mailing list, will only grow more important.   Groups like <a href="http://www.tiyatienhealth.org">Tiyaten Health</a>, with little current technical knowledge but a lot of domain expertise,  will become increasingly key to demonstrating mHealth success.</p>
+
+<p>Functionally and technically, expect to see a lot of work done to strengthen the link between clinic and CHW programs to close the loop on things like referral tracking.  Tools like <a href="http://code.google.com/p/opendatakit/wiki/ODKClinic">ODK Clinic</a> and <a href="http://www.dimagi.com/bhoma/">Bhoma</a> linked to an OpenMRS backend (pending APIs) will really drive this.</p>
+
+<p><strong>This year&rsquo;s Ushahidi?</strong></p>
+
+<p>It&rsquo;s hard to imagine a breakout project capturing the public imagination like Ushahidi has this year (even though I think the iHub is the bigger innovation).  To me there are no clear or apparent frontrunners.  Perhaps 2011 is meant to be more incremental.</p>
+
+<p>What has me most excited is <a href="http://shreddr.org/">Shreddr</a>, a project created by Kuang Chen, a PhD student at Berkeley.  What Shreddr allows is to take a picture or scan of a filled out form and shred into individualized data components representing individual parameters of that form.  These form elements can be combined with OCR and presented in a way that changes the dynamics of digitization of paper forms from data entry to data validation.    Furthermore, since the forms are shredded, forms containing sensitive medical records could safely be farmed out in the form of microtasks for a local CHW or retiree sitting in Iowa to complete.</p>
+
+<p><strong>This year&rsquo;s mHealth?</strong></p>
+
+<p>ICT4Ag.  Mobiles have tremendous unexplored potential to improve the livelihoods of small scale farmers.  Applications like <a href="http://kilimosalama.wordpress.com/2010/03/05/kilimo-salama-video-2/">Kilimo Salama</a> show the use of mobiles is not just limited to providing market price information to farmers.  As for me, I&rsquo;m going to be shifting some of my thinking in 2011 to farms. <strong> </strong>They are a lot easier to count and don&rsquo;t move around!</p>
+
+        </div>
+        
+        <div class="meta">
+            Posted on <a href="/posts/2011-m4d-tech-trends">05 Jan 2011</a>
+        </div>
+    </div>
+
+    <div class="post">
+        <h3><a href="/posts/thoughts-on-time-100">I'm with Coco! My thoughts on being named to the Time 100 List</a></h3>
+      
+        <div class="body">
+            <p>Before starting, I would like just like to thank everyone for your amazingly kind words and your continuous support.  Your words mean an incredible amount as they come from people I admire so much.  This is a deeply humbling experience that means a lot both to my family and myself.  So before I say anything else, thank you very much.  I&rsquo;m overwhelmed by your kindness.</p>
+
+<p>This recognition would not have been possible without the support of an incredible community of innovators, activists and friends whose passion and commitment to their work is not only an inspiration but important as their thoughts and actions are changing the way we think fundamentally about problems and how we can address them.   It’s amazing to work in a community where open-collaboration and sharing ideas take precedence to personal accolades and where each other’s work, successes and even failures are celebrated. Whatever we accomplish, <strong>we do so standing on the shoulders of friends</strong>.  I hope you see this recognition, as I do, as an incredible validation of our work.</p>
+
+<p>I would like to take this opportunity to congratulate and thank my colleagues at <a href="http://www.millenniumvillages.org">MVP</a>, many of who form the basis of the <a href="http://www.childcount.org/about/team">ChildCount+ team</a>.  Are work has just begun but your demonstrated dedication and expertise hold the key to realizing this project&rsquo;s potential.  In particular, I have the great fortune to work with Patricia Mechael and Andy Kanter, both pillars in m+eHealth respectively, and to whom I owe a great deal for their mentorship and guidance.  As our project continues to grow, I am incredibly excited to work with people such as Bennett Nemser and our talented Health and CHW team who bring the understanding and attention to this project that is needed.</p>
+
+<p>As a former programmer, I need to thank our core development team of Renaud Gaudin, <a href="http://www.childcount.org/2010/04/23/experience-dickson-ukanga/">Dickson Ukang'a</a> and David Gelvin who make all this possible and who I recognize will never get due credit for all they contribute. Through Renaud, the spirit of Geekcorps lives on in his organization <a href="http://www.kunnafoni.org/">Kunnafoni</a>, and he is largely behind the success of the <a href="http://rtl.mvpafrica.org/">Rural Technology Lab</a> which represents such incredible promise.  Lastly, I would like to thank the Sauri Health team led by James Wariero, who took a rough idea and forged it into a working model. I would also like to pay particular tribute to community health care workers who represent the best investment we can make, bar none, to ensure a community’s health.</p>
+
+<p>Projects like <a href="http://www.childcount.org">ChildCount+</a> are possible because of <a href="http://www.rapidsms.org">RapidSMS</a> and it’s incredible community, at the heart of which are Chris, Erica, Sean, Terra, Seth, Merrick, Malthe, Adam and Evan and the rest of the <a href="http://unicefinnovation.org/">UNICEF Innovation Unit</a> who are to me the definition of selfless collaboration. Jonathan Jackson and its incredibly talented crew at <a href="http://www.dimagi.com">Dimagi</a> (Cory, Dan, Rowena, Clayton) and others like <a href="http://www.thoughtworks.com/press-release-thoughtworks-champions-social-agenda-02-march-2010">Jeff Wishnie</a>, <a href="http://blog.timakinbo.com/">Tim Akinbo</a>,  <a href="http://thebenedict.wordpress.com/2009/10/27/assist-tracking-cookstove-sales-in-ghana-with-rapidsms/">Michael Benedict</a> and <a href="http://pottier.com/">Nic Pottier</a> help make RapidSMS what it is and quietly work to demonstrate its potential.</p>
+
+<p>We represent, however, only a small part of the picture.  One has to only look so far to the work of my colleagues with the <a href="http://www.open-mobile.org/">Open Mobile Consortium</a> (OMC) to understand this. My good friends Hajo and Bas’ work at <a href="http://texttochange.org/">Text To Change</a> – was the first to convince me that a mobile phone could really be used to save lives, and Peter and his team with <a href="http://www.cell-life.org/">Cell-Life</a> work to do this daily in fighting HIV in South Africa.  Neal Lesh of <a href="http://d-tree.org/">D-Tree</a> and Dimagi have worked diligently to create <a href="http://www.dimagi.com/commcare/">CommCare</a> another important tool to watch in community health.  Gaetano, Yaw and Carl out of the University of Washington have blessed us all with <a href="http://code.google.com/p/opendatakit/">Open Data Kit</a>, THE tool for complex mobile phone based data collection.  They have shown that you don’t have to be a project endowed with millions of dollars to release a world-class product.  Then there is <a href="http://www.ushahidi.com">Ushahidi</a> (a project that no longer needs an introduction) that simply does things the right way; this is no surprise as it is a trademark of it’s co-founder, and personal inspiration, <a href="http://whiteafrican.com/">Erik Hersman</a>.  Robert Kirkpatrick, who formerly helped lead the important work of <a href="http://instedd.org/">InSTEDD</a>, now as the director for <a href="http://www.voicesofthevulnerable.net/">GIVAS</a> has the daunting responsibility of scaling our ideas to an important new level of scale. Last but certainly not least is Katrin Verclas of <a href="http://www.mobileactive.org">MobileActive</a> of who sees where all this is going and is not afraid to drag us there if needed.</p>
+
+<p><a href="http://kiwanja.net/">Ken Banks</a>, <a href="http://medic.frontlinesms.com/">Josh Nesbit</a>, <a href="http://credit.frontlinesms.com/">Ben Lyon</a> and the rest of <a href="http://www.frontlinesms.com">FrontlineSMS</a> team deserve incredible recognition not only for their pioneering work but for building a community of EMPOWERED users that sets the example for us all to follow.   Joel Selanikio and the <a href="http://www.datadyne.org">DataDyne</a> team have not only made mobile phone based data collection easy but understand that for applications to achieve their potential they need to be <a href="http://www.datadyne.org/cic">Coded in Country</a>.</p>
+
+<p>For years, our friends at <a href="http://www.inveneo.org">Inveneo</a> (like <a href="http://tier.cs.berkeley.edu/wiki/Home">TIER</a>) have set the example of how to appropriately bring low cost and appropriate computing and connectivity to rural communities and is now playing a central role in restoring connectivity in Haiti.  Then there is the inimitable <a href="http://wayan.com/">Wayan Vota</a> (now with Inveneo) who works tirelessly to raise awareness to what matters and who also gave me my first shot with the Geekcorps.</p>
+
+<p>So many more deserve recognition including the <a href="http://www.openmrs.org">OpenMRS</a> community, the pioneers of point of care &mdash; Gerry, Mike &amp; Jeff of <a href="http://www.baobobhealth.org">Baobob Health</a>, Jørn and the <a href="http://www.openxdata.org/">OpenXData</a> project,  <a href="http://emocha.org/">eMocha</a>, The <a href="http://www.healthnet.org/">Gather Projec</a>t, the<a href="http://www.grameenfoundation.org/"> Grameen Tech</a> and their <a href="http://www.grameenfoundation.applab.org/section/ghana-health-worker-project">MoTech</a> project, the people behind the innovation labs and centers like <a href="http://appfrica.net/blog/">AppAfrica</a> (Jon Gozier), <a href="http://limbelabs.com/">LimbeLabs</a> (Bill Zimmerman) and <a href="http://www.ihub.co.ke/">iHub</a> (Ushahidi). <a href="http://www.ndi.org/schuleri">Ian Shuler</a> of NDI who has helped pioneer the use of SMS in election monitoring and groups like <a href="http://www.developmentseed.org">Development Seed</a> who are teaching us all how to make data look GOOD.   This is just a partial list and omitted are the people we don’t yet know &mdash; the teams of programmers and social activists in Africa, India, Asia and Latin and South America working to better the world around them.</p>
+
+<p>In short, I feel blessed to part of this wonderful community.  If you want to learn more about this field, I would encourage you to contact anyone from this list, as they are all incredible ambassadors to our work.</p>
+
+<p>Personal thanks go out to my friends and family for their support of the life I’ve chosen and Leigh for her continued belief in me throughout all of this. My schools <a href="http://www.knox.edu">Knox College</a> and <a href="http://www.thunderbird.edu">Thunderbird</a> for an education that I will never take for granted, my colleagues and close friends Jess and Yanis for helping create an opportunity to test out my ideas early, and my supportive boss <a href="http://modi.mech.columbia.edu/about/vijay-modi/">Vijay</a> and brilliant team mates of the <a href="http://modi.mech.columbia.edu/">Modi Research Group</a> and T<a href="http://www.earth.columbia.edu/sections/view/9">he Earth Institute</a> &ndash; my home for the past three years.</p>
+
+<p>Finally, I would like to remember <a href="http://www.dennisbilodeau.org/">Dennis Bilodeau</a>, whose commitment to promote democracy and governance through better access to information in Mali is represented by the country-wide network of thriving community radios he’s left behind.  It&rsquo;s the memory of people like him that help us get through the tough days.</p>
+
+<hr />
+
+        </div>
+        
+        <div class="meta">
+            Posted on <a href="/posts/thoughts-on-time-100">29 Apr 2010</a>
+        </div>
+    </div>
+	
+    
+</section>
+
+
+<section class="footer">
+<section class="content">
+  <table>
+    <tr><td colspan=2><h2>Prior Posts</h2></td></tr>
+    
+     <tr><td> <span>05 Jan 2011</span></td><td> <a href="/posts/2011-m4d-tech-trends">M4D Tech Trends 2011: What to expect and hope for</a></td></tr>
+    
+     <tr><td> <span>29 Apr 2010</span></td><td> <a href="/posts/thoughts-on-time-100">I'm with Coco! My thoughts on being named to the Time 100 List</a></td></tr>
+    
+     <tr><td> <span>15 Aug 2009</span></td><td> <a href="/posts/william-kamkwamba-windmill-maker-maker-faire-africa-2009">William Kamkwamba Windmill Maker - Maker Faire Africa 2009</a></td></tr>
+    
+     <tr><td> <span>02 Aug 2009</span></td><td> <a href="/posts/africa-ready-to-code">Africa Ready to Code</a></td></tr>
+    
+     <tr><td> <span>09 Jul 2009</span></td><td> <a href="/posts/introducing-rapidresponse">Introducing RapidResponse a mHealth Platform built with RapidSMS</a></td></tr>
+    
+     <tr><td> <span>15 Jun 2009</span></td><td> <a href="/posts/rethinking-the-term-solar-systems">Rethinking the term "Solar Systems"</a></td></tr>
+    
+     <tr><td> <span>09 Jun 2009</span></td><td> <a href="/posts/quick-hits-20090610">Quick Hits {20090610}</a></td></tr>
+    
+     <tr><td> <span>14 May 2009</span></td><td> <a href="/posts/mvp-ict-village-network-talk">MVP ICT "Village Network" Talk</a></td></tr>
+    
+     <tr><td> <span>03 May 2009</span></td><td> <a href="/posts/off-grid-solar-calculator">Off-Grid Solar Calculator</a></td></tr>
+    
+     <tr><td> <span>16 Mar 2009</span></td><td> <a href="/posts/pictures-from-mali">Pictures from Mali</a></td></tr>
+    
+     <tr><td> <span>08 Mar 2009</span></td><td> <a href="/posts/toys-from-trash">Toys from Trash</a></td></tr>
+    
+     <tr><td> <span>25 Feb 2009</span></td><td> <a href="/posts/leveraging-internet-with-radio">Leveraging Internet with Radio</a></td></tr>
+    
+     <tr><td> <span>06 Feb 2009</span></td><td> <a href="/posts/offline-wikipedias">Offline Wikipedias</a></td></tr>
+    
+     <tr><td> <span>02 Feb 2009</span></td><td> <a href="/posts/google-gears-offline-gmail-better-african-user-experience">Google Gears = Offline Gmail = Killer African Web App</a></td></tr>
+    
+     <tr><td> <span>10 Nov 2006</span></td><td> <a href="/posts/geekcorps-cantv">The Geekcorps CanTV</a></td></tr>
+    
+     <tr><td> <span>25 Jun 2005</span></td><td> <a href="/posts/cultural-iceberg">Cultural Iceberg</a></td></tr>
+    
+</table>
+</section>
+</section>
+
+</body>
+
+</html>

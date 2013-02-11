@@ -1,0 +1,30 @@
+---
+comments: false
+date: 2009-08-02 11:09:44
+layout: post
+slug: africa-ready-to-code
+title: Africa Ready to Code
+wordpress_id: 360
+categories:
+- Travel
+---
+
+[![](/images/posts/readytocode.png)](http:/wp-content/uploads/2009/08/readytocode.png)
+
+
+
+I am writing this from Kisumu, Kenya.  I'm here to follow up on the progress being made with the [RapidResponse Pilot](http://buildafrica.org/2009/07/09/introducing-rapidresponse/) and to work with Dickson Ukanga, a talented young Kenyan programmer, I just hired.
+
+It's been about a week now since the Seacom cable has come online and according to Dickson Safaricom users are already seeing the benefit.   Today, I also noticed for the first time that Mountain Dew, the drink synonomous to late night coding and considered by some code-junkies "[an essential ingredient for successful computer programming](http://www.acts.org/roland/mt.dew/)", is now available in shops at Kenya too.  Coincidence? I think not. =)
+
+What encourages me is that African programmers increasingly have access to the tools critical to compete: cheap computers, good internet, solid computer science university programs, time to code and increased inclusion to global geek culture both actual through bar camps and symbolic with Mountain Dew.  Cheaper and faster Internet should also help translate into a larger market for local Internet based services critical for growing the African software industry.
+
+I think it is time to be excited.   As the barriers to entry continue to tumble, the number of really good programmers coming out of places like Nairobi, Kampala, Accra and Dakar will only increase.   It will still take some time but at least but at least Africa is starting to overcome the infrastructure challenges that have choked ICT growth in Africa. It's hard to train to compete when you are sipping through a straw.  The only thing ultimately inhibiting African programmers from making their mark on a global (and local) stage is hard work and brainpower.
+
+That's a bet I'm willing to take.
+
+**Note:**
+
+If you are interested in finding programmers in Africa please checkout this job board at:
+
+[http://jobs.whiteafrican.com/](http://jobs.whiteafrican.com/)

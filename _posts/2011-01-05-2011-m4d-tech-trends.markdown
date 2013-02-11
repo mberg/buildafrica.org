@@ -1,0 +1,56 @@
+---
+comments: false
+date: 2011-01-05 06:38:01
+layout: post
+slug: 2011-m4d-tech-trends
+title: 'M4D Tech Trends 2011: What to expect and hope for'
+wordpress_id: 446
+categories:
+- M4D
+- Mobile
+- Thoughts
+tag:
+- M4D
+---
+**Commoditization of Mobile Based Data Collection**
+
+With the growth and maturation of XForm authoring tools and mobile clients like [ODK](http://opendatakit.org/) (my choice for best/most important mobile tool in 2010), it's getting increasingly easy to do robust mobile based data collection.   In 2011, expect the focus to shift towards building out web backends that provide support for unified data collection (Xforms, SMS, USSD, IVR) with greatly improved analytic and reporting capabilities.   As a result, expect to see a lot more turnkey tools/services similar to [EpiSurveyor.org](http://opendatakit.org/).  I wouldn't be shocked even to see Google offer something in this space.
+
+**First Steps with IVR**
+
+Focus will start to shift from SMS to IVR as mHealth programs expand from service providers to beneficiaries where literacy is a lingering concern.  While [ODK Voice](http://voice.opendatakit.googlecode.com/hg/war/doc/help.html) shows a lot of initial promise and [Freedom Fone](http://www.freedomfone.org/) continues to be worth a look,  there remains a lot of room for a new open-source tool in this space.   My guess is that it’ll be built using [FreeSwitch](http://www.freeswitch.org/) (not [Asterisk](http://www.asterisk.org/)) to support a local webservice offering similar, albeit more limited, functionalities to [Twilio](http://www.twilio.com/) or [Voxeo](http://www.voxeo.com/).
+
+**REST APIs for OpenMRS**
+
+If you've ever developed an mHealth application, you quickly realize you really don't want to build your own medical record system.  Things get complicated very quickly which is why the existence of platforms like [OpenMRS](http://www.openmrs.org) is a very good thing.   OpenMRS, however,  has been strongly hindered by a lack of  web API's which makes building applications upon it difficult.  This in turn has greatly limited the scope of how OpenMRS has currently been used.  REST APIs are on the road map for v1.9 coming later this spring.   With robust APIs, OpenMRS should be more accessible and flexible as a platform and in turn greatly expand it's community of users.  Until then, I like many potential users, will continue to dip my toes in the water despite wanting to dive in.  If by 2012, I'm still waiting, I'll probably start looking for a new swimming hole.
+
+**XForms and CouchDB**
+
+Expect to hear this combo increasingly.  They just make a lot of sense together.
+
+**Direct to Client Services First  to Reach Scale**
+
+Direct to client programs that incorporate SMS, USSD, IVR and "Please Call Me's" could start to reach scale in 2011 that could reach into the millions.  Groups like  [Text to Change](http://www.texttochange.org/) and the [Praekelt Foundation](http://www.praekeltfoundation.org/) are starting to receive the funding necessary  to bring their approaches to the masses.  If positive impacts can be shown at scale, we'll see rapid growth as donor's jump into this space.
+
+**Building Block Webservices**
+
+There will continue to be a lot of talk around the need of an "enterprise architecture" in mHealth.  While good, I think the growth towards this will be organic in the form of common web services that will attempt to bring order to the increasingly fractured mHealth ecosystem emerging in many countries.   This would include services like a central mother and child registry providing each beneficiary a unique ID allowing them to be tracked across the health system.  I'm not sure such a service could be built or deployed by the end of 2011 but the realization for the need of such a service will likely grow.
+
+**Community Health Platforms**
+
+Expect to see a lot less discussion about the differences in particular platforms ([CommCare](http://www.dimagi.com/commcare/), [ChildCount+](http://www.childcount.org), [FrontlineSMS:Medic](http://medicmobile.org/), [Mwana](http://projectmwana.posterous.com/), [MoTeCH](http://www.grameenfoundation.applab.org/section/ghana-health-worker-project)) and a lot more on more discusion on content and methodologies.   In terms of functionality and to some extent underlying technology, many elements of the different platforms will converge.  As the tools improve, the challenge really shifts to figuring what works and what doesn't and how can technology best be used to create value.  As a result, the realtime sharing of experiences, like on the incredible [ICT4CHW](http://groups.google.com/group/ict4chw?pli=1) mailing list, will only grow more important.   Groups like [Tiyaten Health](http://www.tiyatienhealth.org), with little current technical knowledge but a lot of domain expertise,  will become increasingly key to demonstrating mHealth success.
+
+Functionally and technically, expect to see a lot of work done to strengthen the link between clinic and CHW programs to close the loop on things like referral tracking.  Tools like [ODK Clinic](http://code.google.com/p/opendatakit/wiki/ODKClinic) and [Bhoma](http://www.dimagi.com/bhoma/) linked to an OpenMRS backend (pending APIs) will really drive this.
+
+
+
+
+**This year's Ushahidi?**
+
+It's hard to imagine a breakout project capturing the public imagination like Ushahidi has this year (even though I think the iHub is the bigger innovation).  To me there are no clear or apparent frontrunners.  Perhaps 2011 is meant to be more incremental.
+
+What has me most excited is [Shreddr](http://shreddr.org/), a project created by Kuang Chen, a PhD student at Berkeley.  What Shreddr allows is to take a picture or scan of a filled out form and shred into individualized data components representing individual parameters of that form.  These form elements can be combined with OCR and presented in a way that changes the dynamics of digitization of paper forms from data entry to data validation.    Furthermore, since the forms are shredded, forms containing sensitive medical records could safely be farmed out in the form of microtasks for a local CHW or retiree sitting in Iowa to complete.
+
+**This year's mHealth?**
+
+ICT4Ag.  Mobiles have tremendous unexplored potential to improve the livelihoods of small scale farmers.  Applications like [Kilimo Salama](http://kilimosalama.wordpress.com/2010/03/05/kilimo-salama-video-2/) show the use of mobiles is not just limited to providing market price information to farmers.  As for me, I'm going to be shifting some of my thinking in 2011 to farms. ** **They are a lot easier to count and don't move around!

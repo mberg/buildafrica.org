@@ -1,0 +1,20 @@
+---
+comments: false
+date: 2009-08-15 06:45:24
+layout: post
+slug: william-kamkwamba-windmill-maker-maker-faire-africa-2009
+title: William Kamkwamba Windmill Maker - Maker Faire Africa 2009
+wordpress_id: 374
+categories:
+- Africa
+- Innovation
+- Innovators
+- Malawi
+- Power
+---
+	
+One of the real highlights thus far at [Maker Faire Africa 2009](http://makerfaireafrica.com/) has been the presence of [William Kamkwamba](http://williamkamkwamba.com/). William is a remarkable young inventor from rural Malawi, who at the age of 14, built his first windmill out of scrap parts (including his father's bike) after learning about one in a book.  William's simple message of not letting your goals be defined by constraints is inspirational and resonated particularly powerful with the other African maker's in attendance at Maker Faire.
+    
+Expect to hear more from William this year as he is about to release a book, [The Boy Who Harnessed the Wind](http://www.amazon.com/Boy-Who-Harnessed-Wind-Electricity/dp/0061730327), which comes out September 29th.  I expect it to be very popular as his is a story that particularly deserves telling.
+
+To learn more about William and find out about his important work please visit: [www.williamkamkwamba.com](http://williamkamkwamba.com/)

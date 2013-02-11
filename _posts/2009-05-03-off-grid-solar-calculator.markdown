@@ -1,0 +1,28 @@
+---
+comments: false
+date: 2009-05-03 11:48:44
+layout: post
+slug: off-grid-solar-calculator
+title: Off-Grid Solar Calculator
+wordpress_id: 292
+categories:
+- Africa
+- Power
+- Resource
+- Solar
+---
+
+Part of my job over the past couple of years has entailed doing energy sizing for off-grid photo voltaic (PV) solar systems.  To help with this I have relied largely on an excel-based [solar calculator](http://www.buildafrica.org/files/solar_toolkit.xls) that I created.  I thought it might be useful to share.
+
+	
+  * [Solar Toolkit](http://www.buildafrica.org/files/solar_toolkit.xls) - excel based solar calculator. Last updated 05.03.09. Please see instructions for proper usage.
+  * [Solar Radiation Chart](http://www.buildafrica.org/files/africa_solar_radiation.pdf) - useful for estimating peak solar of your location (# hours of day of strong sunlight)
+  * [Solar Radiation Chart 2](http://www.soda-is.com/img/Map_AF-Glob_opta-150DPI-final-v2.png) - includes optimal PV inclination angles for facing the sun
+
+Please note: this is NOT intended to replace getting a detailed power estimate from a local solar expert who can best take in account the local conditions. This is more intended to help you with estimates when you are looking to bring a project off-grid. Please use at your own risk.
+
+**Solar Costing**
+
+A common question relating to PV systems is what does it cost?  A technique commonly used is to estimate the cost at $10-per-watt. This includes the cost of the panels, batteries, charge controller and wiring - installed.  A 100W system, for example, would cost you around $1,000.   You can begin to see why we tend to get so nutty about power efficiency! =)
+
+Note: In Africa we've found this price to vary widely from $10 to over $15 due to different policies on import taxation, transport costs and varying levels of local competition.  Also, $10-per-watt is for the initial setup of a PV system only.  To consider issues of sustainability, it is important to take in account that batteries will need to be replaced every 2-3 years and the charge controller ever five.  If you wish to factor in replacement costs, to keep the system operational,  $15-per-watt should be used.

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Build Africa</title>
+ <link href="http://buildafrica.org/atom.xml" rel="self"/>
+ <link href="http://buildafrica.org/"/>
+ <updated>2013-02-11T21:52:55+03:00</updated>
+ <id>http://buildafrica.org</id>
+ <author>
+   <name>Build Africa</name>
+ </author>
+ 
+ 
+ <entry>
+   <title>M4D Tech Trends 2011: What to expect and hope for</title>
+   <link href="http://buildafrica.org/posts/2011-m4d-tech-trends"/>
+   <updated>2011-01-05T06:38:01+03:00</updated>
+   <id>http://buildafrica.org/posts/2011-m4d-tech-trends</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Commoditization of Mobile Based Data Collection&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With the growth and maturation of XForm authoring tools and mobile clients like &lt;a href=&quot;http://opendatakit.org/&quot;&gt;ODK&lt;/a&gt; (my choice for best/most important mobile tool in 2010), it&amp;rsquo;s getting increasingly easy to do robust mobile based data collection.   In 2011, expect the focus to shift towards building out web backends that provide support for unified data collection (Xforms, SMS, USSD, IVR) with greatly improved analytic and reporting capabilities.   As a result, expect to see a lot more turnkey tools/services similar to &lt;a href=&quot;http://opendatakit.org/&quot;&gt;EpiSurveyor.org&lt;/a&gt;.  I wouldn&amp;rsquo;t be shocked even to see Google offer something in this space.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First Steps with IVR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Focus will start to shift from SMS to IVR as mHealth programs expand from service providers to beneficiaries where literacy is a lingering concern.  While &lt;a href=&quot;http://voice.opendatakit.googlecode.com/hg/war/doc/help.html&quot;&gt;ODK Voice&lt;/a&gt; shows a lot of initial promise and &lt;a href=&quot;http://www.freedomfone.org/&quot;&gt;Freedom Fone&lt;/a&gt; continues to be worth a look,  there remains a lot of room for a new open-source tool in this space.   My guess is that it’ll be built using &lt;a href=&quot;http://www.freeswitch.org/&quot;&gt;FreeSwitch&lt;/a&gt; (not &lt;a href=&quot;http://www.asterisk.org/&quot;&gt;Asterisk&lt;/a&gt;) to support a local webservice offering similar, albeit more limited, functionalities to &lt;a href=&quot;http://www.twilio.com/&quot;&gt;Twilio&lt;/a&gt; or &lt;a href=&quot;http://www.voxeo.com/&quot;&gt;Voxeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;REST APIs for OpenMRS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve ever developed an mHealth application, you quickly realize you really don&amp;rsquo;t want to build your own medical record system.  Things get complicated very quickly which is why the existence of platforms like &lt;a href=&quot;http://www.openmrs.org&quot;&gt;OpenMRS&lt;/a&gt; is a very good thing.   OpenMRS, however,  has been strongly hindered by a lack of  web API&amp;rsquo;s which makes building applications upon it difficult.  This in turn has greatly limited the scope of how OpenMRS has currently been used.  REST APIs are on the road map for v1.9 coming later this spring.   With robust APIs, OpenMRS should be more accessible and flexible as a platform and in turn greatly expand it&amp;rsquo;s community of users.  Until then, I like many potential users, will continue to dip my toes in the water despite wanting to dive in.  If by 2012, I&amp;rsquo;m still waiting, I&amp;rsquo;ll probably start looking for a new swimming hole.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;XForms and CouchDB&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Expect to hear this combo increasingly.  They just make a lot of sense together.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Direct to Client Services First  to Reach Scale&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Direct to client programs that incorporate SMS, USSD, IVR and &amp;ldquo;Please Call Me&amp;rsquo;s&amp;rdquo; could start to reach scale in 2011 that could reach into the millions.  Groups like  &lt;a href=&quot;http://www.texttochange.org/&quot;&gt;Text to Change&lt;/a&gt; and the &lt;a href=&quot;http://www.praekeltfoundation.org/&quot;&gt;Praekelt Foundation&lt;/a&gt; are starting to receive the funding necessary  to bring their approaches to the masses.  If positive impacts can be shown at scale, we&amp;rsquo;ll see rapid growth as donor&amp;rsquo;s jump into this space.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building Block Webservices&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There will continue to be a lot of talk around the need of an &amp;ldquo;enterprise architecture&amp;rdquo; in mHealth.  While good, I think the growth towards this will be organic in the form of common web services that will attempt to bring order to the increasingly fractured mHealth ecosystem emerging in many countries.   This would include services like a central mother and child registry providing each beneficiary a unique ID allowing them to be tracked across the health system.  I&amp;rsquo;m not sure such a service could be built or deployed by the end of 2011 but the realization for the need of such a service will likely grow.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Community Health Platforms&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Expect to see a lot less discussion about the differences in particular platforms (&lt;a href=&quot;http://www.dimagi.com/commcare/&quot;&gt;CommCare&lt;/a&gt;, &lt;a href=&quot;http://www.childcount.org&quot;&gt;ChildCount+&lt;/a&gt;, &lt;a href=&quot;http://medicmobile.org/&quot;&gt;FrontlineSMS:Medic&lt;/a&gt;, &lt;a href=&quot;http://projectmwana.posterous.com/&quot;&gt;Mwana&lt;/a&gt;, &lt;a href=&quot;http://www.grameenfoundation.applab.org/section/ghana-health-worker-project&quot;&gt;MoTeCH&lt;/a&gt;) and a lot more on more discusion on content and methodologies.   In terms of functionality and to some extent underlying technology, many elements of the different platforms will converge.  As the tools improve, the challenge really shifts to figuring what works and what doesn&amp;rsquo;t and how can technology best be used to create value.  As a result, the realtime sharing of experiences, like on the incredible &lt;a href=&quot;http://groups.google.com/group/ict4chw?pli=1&quot;&gt;ICT4CHW&lt;/a&gt; mailing list, will only grow more important.   Groups like &lt;a href=&quot;http://www.tiyatienhealth.org&quot;&gt;Tiyaten Health&lt;/a&gt;, with little current technical knowledge but a lot of domain expertise,  will become increasingly key to demonstrating mHealth success.&lt;/p&gt;
+
+&lt;p&gt;Functionally and technically, expect to see a lot of work done to strengthen the link between clinic and CHW programs to close the loop on things like referral tracking.  Tools like &lt;a href=&quot;http://code.google.com/p/opendatakit/wiki/ODKClinic&quot;&gt;ODK Clinic&lt;/a&gt; and &lt;a href=&quot;http://www.dimagi.com/bhoma/&quot;&gt;Bhoma&lt;/a&gt; linked to an OpenMRS backend (pending APIs) will really drive this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This year&amp;rsquo;s Ushahidi?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s hard to imagine a breakout project capturing the public imagination like Ushahidi has this year (even though I think the iHub is the bigger innovation).  To me there are no clear or apparent frontrunners.  Perhaps 2011 is meant to be more incremental.&lt;/p&gt;
+
+&lt;p&gt;What has me most excited is &lt;a href=&quot;http://shreddr.org/&quot;&gt;Shreddr&lt;/a&gt;, a project created by Kuang Chen, a PhD student at Berkeley.  What Shreddr allows is to take a picture or scan of a filled out form and shred into individualized data components representing individual parameters of that form.  These form elements can be combined with OCR and presented in a way that changes the dynamics of digitization of paper forms from data entry to data validation.    Furthermore, since the forms are shredded, forms containing sensitive medical records could safely be farmed out in the form of microtasks for a local CHW or retiree sitting in Iowa to complete.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This year&amp;rsquo;s mHealth?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ICT4Ag.  Mobiles have tremendous unexplored potential to improve the livelihoods of small scale farmers.  Applications like &lt;a href=&quot;http://kilimosalama.wordpress.com/2010/03/05/kilimo-salama-video-2/&quot;&gt;Kilimo Salama&lt;/a&gt; show the use of mobiles is not just limited to providing market price information to farmers.  As for me, I&amp;rsquo;m going to be shifting some of my thinking in 2011 to farms. &lt;strong&gt; &lt;/strong&gt;They are a lot easier to count and don&amp;rsquo;t move around!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>I'm with Coco! My thoughts on being named to the Time 100 List</title>
+   <link href="http://buildafrica.org/posts/thoughts-on-time-100"/>
+   <updated>2010-04-29T18:08:40+03:00</updated>
+   <id>http://buildafrica.org/posts/thoughts-on-time-100</id>
+   <content type="html">&lt;p&gt;Before starting, I would like just like to thank everyone for your amazingly kind words and your continuous support.  Your words mean an incredible amount as they come from people I admire so much.  This is a deeply humbling experience that means a lot both to my family and myself.  So before I say anything else, thank you very much.  I&amp;rsquo;m overwhelmed by your kindness.&lt;/p&gt;
+
+&lt;p&gt;This recognition would not have been possible without the support of an incredible community of innovators, activists and friends whose passion and commitment to their work is not only an inspiration but important as their thoughts and actions are changing the way we think fundamentally about problems and how we can address them.   It’s amazing to work in a community where open-collaboration and sharing ideas take precedence to personal accolades and where each other’s work, successes and even failures are celebrated. Whatever we accomplish, &lt;strong&gt;we do so standing on the shoulders of friends&lt;/strong&gt;.  I hope you see this recognition, as I do, as an incredible validation of our work.&lt;/p&gt;
+
+&lt;p&gt;I would like to take this opportunity to congratulate and thank my colleagues at &lt;a href=&quot;http://www.millenniumvillages.org&quot;&gt;MVP&lt;/a&gt;, many of who form the basis of the &lt;a href=&quot;http://www.childcount.org/about/team&quot;&gt;ChildCount+ team&lt;/a&gt;.  Are work has just begun but your demonstrated dedication and expertise hold the key to realizing this project&amp;rsquo;s potential.  In particular, I have the great fortune to work with Patricia Mechael and Andy Kanter, both pillars in m+eHealth respectively, and to whom I owe a great deal for their mentorship and guidance.  As our project continues to grow, I am incredibly excited to work with people such as Bennett Nemser and our talented Health and CHW team who bring the understanding and attention to this project that is needed.&lt;/p&gt;
+
+&lt;p&gt;As a former programmer, I need to thank our core development team of Renaud Gaudin, &lt;a href=&quot;http://www.childcount.org/2010/04/23/experience-dickson-ukanga/&quot;&gt;Dickson Ukang'a&lt;/a&gt; and David Gelvin who make all this possible and who I recognize will never get due credit for all they contribute. Through Renaud, the spirit of Geekcorps lives on in his organization &lt;a href=&quot;http://www.kunnafoni.org/&quot;&gt;Kunnafoni&lt;/a&gt;, and he is largely behind the success of the &lt;a href=&quot;http://rtl.mvpafrica.org/&quot;&gt;Rural Technology Lab&lt;/a&gt; which represents such incredible promise.  Lastly, I would like to thank the Sauri Health team led by James Wariero, who took a rough idea and forged it into a working model. I would also like to pay particular tribute to community health care workers who represent the best investment we can make, bar none, to ensure a community’s health.&lt;/p&gt;
+
+&lt;p&gt;Projects like &lt;a href=&quot;http://www.childcount.org&quot;&gt;ChildCount+&lt;/a&gt; are possible because of &lt;a href=&quot;http://www.rapidsms.org&quot;&gt;RapidSMS&lt;/a&gt; and it’s incredible community, at the heart of which are Chris, Erica, Sean, Terra, Seth, Merrick, Malthe, Adam and Evan and the rest of the &lt;a href=&quot;http://unicefinnovation.org/&quot;&gt;UNICEF Innovation Unit&lt;/a&gt; who are to me the definition of selfless collaboration. Jonathan Jackson and its incredibly talented crew at &lt;a href=&quot;http://www.dimagi.com&quot;&gt;Dimagi&lt;/a&gt; (Cory, Dan, Rowena, Clayton) and others like &lt;a href=&quot;http://www.thoughtworks.com/press-release-thoughtworks-champions-social-agenda-02-march-2010&quot;&gt;Jeff Wishnie&lt;/a&gt;, &lt;a href=&quot;http://blog.timakinbo.com/&quot;&gt;Tim Akinbo&lt;/a&gt;,  &lt;a href=&quot;http://thebenedict.wordpress.com/2009/10/27/assist-tracking-cookstove-sales-in-ghana-with-rapidsms/&quot;&gt;Michael Benedict&lt;/a&gt; and &lt;a href=&quot;http://pottier.com/&quot;&gt;Nic Pottier&lt;/a&gt; help make RapidSMS what it is and quietly work to demonstrate its potential.&lt;/p&gt;
+
+&lt;p&gt;We represent, however, only a small part of the picture.  One has to only look so far to the work of my colleagues with the &lt;a href=&quot;http://www.open-mobile.org/&quot;&gt;Open Mobile Consortium&lt;/a&gt; (OMC) to understand this. My good friends Hajo and Bas’ work at &lt;a href=&quot;http://texttochange.org/&quot;&gt;Text To Change&lt;/a&gt; – was the first to convince me that a mobile phone could really be used to save lives, and Peter and his team with &lt;a href=&quot;http://www.cell-life.org/&quot;&gt;Cell-Life&lt;/a&gt; work to do this daily in fighting HIV in South Africa.  Neal Lesh of &lt;a href=&quot;http://d-tree.org/&quot;&gt;D-Tree&lt;/a&gt; and Dimagi have worked diligently to create &lt;a href=&quot;http://www.dimagi.com/commcare/&quot;&gt;CommCare&lt;/a&gt; another important tool to watch in community health.  Gaetano, Yaw and Carl out of the University of Washington have blessed us all with &lt;a href=&quot;http://code.google.com/p/opendatakit/&quot;&gt;Open Data Kit&lt;/a&gt;, THE tool for complex mobile phone based data collection.  They have shown that you don’t have to be a project endowed with millions of dollars to release a world-class product.  Then there is &lt;a href=&quot;http://www.ushahidi.com&quot;&gt;Ushahidi&lt;/a&gt; (a project that no longer needs an introduction) that simply does things the right way; this is no surprise as it is a trademark of it’s co-founder, and personal inspiration, &lt;a href=&quot;http://whiteafrican.com/&quot;&gt;Erik Hersman&lt;/a&gt;.  Robert Kirkpatrick, who formerly helped lead the important work of &lt;a href=&quot;http://instedd.org/&quot;&gt;InSTEDD&lt;/a&gt;, now as the director for &lt;a href=&quot;http://www.voicesofthevulnerable.net/&quot;&gt;GIVAS&lt;/a&gt; has the daunting responsibility of scaling our ideas to an important new level of scale. Last but certainly not least is Katrin Verclas of &lt;a href=&quot;http://www.mobileactive.org&quot;&gt;MobileActive&lt;/a&gt; of who sees where all this is going and is not afraid to drag us there if needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kiwanja.net/&quot;&gt;Ken Banks&lt;/a&gt;, &lt;a href=&quot;http://medic.frontlinesms.com/&quot;&gt;Josh Nesbit&lt;/a&gt;, &lt;a href=&quot;http://credit.frontlinesms.com/&quot;&gt;Ben Lyon&lt;/a&gt; and the rest of &lt;a href=&quot;http://www.frontlinesms.com&quot;&gt;FrontlineSMS&lt;/a&gt; team deserve incredible recognition not only for their pioneering work but for building a community of EMPOWERED users that sets the example for us all to follow.   Joel Selanikio and the &lt;a href=&quot;http://www.datadyne.org&quot;&gt;DataDyne&lt;/a&gt; team have not only made mobile phone based data collection easy but understand that for applications to achieve their potential they need to be &lt;a href=&quot;http://www.datadyne.org/cic&quot;&gt;Coded in Country&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For years, our friends at &lt;a href=&quot;http://www.inveneo.org&quot;&gt;Inveneo&lt;/a&gt; (like &lt;a href=&quot;http://tier.cs.berkeley.edu/wiki/Home&quot;&gt;TIER&lt;/a&gt;) have set the example of how to appropriately bring low cost and appropriate computing and connectivity to rural communities and is now playing a central role in restoring connectivity in Haiti.  Then there is the inimitable &lt;a href=&quot;http://wayan.com/&quot;&gt;Wayan Vota&lt;/a&gt; (now with Inveneo) who works tirelessly to raise awareness to what matters and who also gave me my first shot with the Geekcorps.&lt;/p&gt;
+
+&lt;p&gt;So many more deserve recognition including the &lt;a href=&quot;http://www.openmrs.org&quot;&gt;OpenMRS&lt;/a&gt; community, the pioneers of point of care &amp;mdash; Gerry, Mike &amp;amp; Jeff of &lt;a href=&quot;http://www.baobobhealth.org&quot;&gt;Baobob Health&lt;/a&gt;, Jørn and the &lt;a href=&quot;http://www.openxdata.org/&quot;&gt;OpenXData&lt;/a&gt; project,  &lt;a href=&quot;http://emocha.org/&quot;&gt;eMocha&lt;/a&gt;, The &lt;a href=&quot;http://www.healthnet.org/&quot;&gt;Gather Projec&lt;/a&gt;t, the&lt;a href=&quot;http://www.grameenfoundation.org/&quot;&gt; Grameen Tech&lt;/a&gt; and their &lt;a href=&quot;http://www.grameenfoundation.applab.org/section/ghana-health-worker-project&quot;&gt;MoTech&lt;/a&gt; project, the people behind the innovation labs and centers like &lt;a href=&quot;http://appfrica.net/blog/&quot;&gt;AppAfrica&lt;/a&gt; (Jon Gozier), &lt;a href=&quot;http://limbelabs.com/&quot;&gt;LimbeLabs&lt;/a&gt; (Bill Zimmerman) and &lt;a href=&quot;http://www.ihub.co.ke/&quot;&gt;iHub&lt;/a&gt; (Ushahidi). &lt;a href=&quot;http://www.ndi.org/schuleri&quot;&gt;Ian Shuler&lt;/a&gt; of NDI who has helped pioneer the use of SMS in election monitoring and groups like &lt;a href=&quot;http://www.developmentseed.org&quot;&gt;Development Seed&lt;/a&gt; who are teaching us all how to make data look GOOD.   This is just a partial list and omitted are the people we don’t yet know &amp;mdash; the teams of programmers and social activists in Africa, India, Asia and Latin and South America working to better the world around them.&lt;/p&gt;
+
+&lt;p&gt;In short, I feel blessed to part of this wonderful community.  If you want to learn more about this field, I would encourage you to contact anyone from this list, as they are all incredible ambassadors to our work.&lt;/p&gt;
+
+&lt;p&gt;Personal thanks go out to my friends and family for their support of the life I’ve chosen and Leigh for her continued belief in me throughout all of this. My schools &lt;a href=&quot;http://www.knox.edu&quot;&gt;Knox College&lt;/a&gt; and &lt;a href=&quot;http://www.thunderbird.edu&quot;&gt;Thunderbird&lt;/a&gt; for an education that I will never take for granted, my colleagues and close friends Jess and Yanis for helping create an opportunity to test out my ideas early, and my supportive boss &lt;a href=&quot;http://modi.mech.columbia.edu/about/vijay-modi/&quot;&gt;Vijay&lt;/a&gt; and brilliant team mates of the &lt;a href=&quot;http://modi.mech.columbia.edu/&quot;&gt;Modi Research Group&lt;/a&gt; and T&lt;a href=&quot;http://www.earth.columbia.edu/sections/view/9&quot;&gt;he Earth Institute&lt;/a&gt; &amp;ndash; my home for the past three years.&lt;/p&gt;
+
+&lt;p&gt;Finally, I would like to remember &lt;a href=&quot;http://www.dennisbilodeau.org/&quot;&gt;Dennis Bilodeau&lt;/a&gt;, whose commitment to promote democracy and governance through better access to information in Mali is represented by the country-wide network of thriving community radios he’s left behind.  It&amp;rsquo;s the memory of people like him that help us get through the tough days.&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>William Kamkwamba Windmill Maker - Maker Faire Africa 2009</title>
+   <link href="http://buildafrica.org/posts/william-kamkwamba-windmill-maker-maker-faire-africa-2009"/>
+   <updated>2009-08-15T06:45:24+03:00</updated>
+   <id>http://buildafrica.org/posts/william-kamkwamba-windmill-maker-maker-faire-africa-2009</id>
+   <content type="html">&lt;p&gt;One of the real highlights thus far at &lt;a href=&quot;http://makerfaireafrica.com/&quot;&gt;Maker Faire Africa 2009&lt;/a&gt; has been the presence of &lt;a href=&quot;http://williamkamkwamba.com/&quot;&gt;William Kamkwamba&lt;/a&gt;. William is a remarkable young inventor from rural Malawi, who at the age of 14, built his first windmill out of scrap parts (including his father&amp;rsquo;s bike) after learning about one in a book.  William&amp;rsquo;s simple message of not letting your goals be defined by constraints is inspirational and resonated particularly powerful with the other African maker&amp;rsquo;s in attendance at Maker Faire.&lt;/p&gt;
+
+&lt;p&gt;Expect to hear more from William this year as he is about to release a book, &lt;a href=&quot;http://www.amazon.com/Boy-Who-Harnessed-Wind-Electricity/dp/0061730327&quot;&gt;The Boy Who Harnessed the Wind&lt;/a&gt;, which comes out September 29th.  I expect it to be very popular as his is a story that particularly deserves telling.&lt;/p&gt;
+
+&lt;p&gt;To learn more about William and find out about his important work please visit: &lt;a href=&quot;http://williamkamkwamba.com/&quot;&gt;www.williamkamkwamba.com&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Africa Ready to Code</title>
+   <link href="http://buildafrica.org/posts/africa-ready-to-code"/>
+   <updated>2009-08-02T11:09:44+03:00</updated>
+   <id>http://buildafrica.org/posts/africa-ready-to-code</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http:/wp-content/uploads/2009/08/readytocode.png&quot;&gt;&lt;img src=&quot;/images/posts/readytocode.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I am writing this from Kisumu, Kenya.  I&amp;rsquo;m here to follow up on the progress being made with the &lt;a href=&quot;http://buildafrica.org/2009/07/09/introducing-rapidresponse/&quot;&gt;RapidResponse Pilot&lt;/a&gt; and to work with Dickson Ukanga, a talented young Kenyan programmer, I just hired.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s been about a week now since the Seacom cable has come online and according to Dickson Safaricom users are already seeing the benefit.   Today, I also noticed for the first time that Mountain Dew, the drink synonomous to late night coding and considered by some code-junkies &amp;ldquo;&lt;a href=&quot;http://www.acts.org/roland/mt.dew/&quot;&gt;an essential ingredient for successful computer programming&lt;/a&gt;&amp;rdquo;, is now available in shops at Kenya too.  Coincidence? I think not. =)&lt;/p&gt;
+
+&lt;p&gt;What encourages me is that African programmers increasingly have access to the tools critical to compete: cheap computers, good internet, solid computer science university programs, time to code and increased inclusion to global geek culture both actual through bar camps and symbolic with Mountain Dew.  Cheaper and faster Internet should also help translate into a larger market for local Internet based services critical for growing the African software industry.&lt;/p&gt;
+
+&lt;p&gt;I think it is time to be excited.   As the barriers to entry continue to tumble, the number of really good programmers coming out of places like Nairobi, Kampala, Accra and Dakar will only increase.   It will still take some time but at least but at least Africa is starting to overcome the infrastructure challenges that have choked ICT growth in Africa. It&amp;rsquo;s hard to train to compete when you are sipping through a straw.  The only thing ultimately inhibiting African programmers from making their mark on a global (and local) stage is hard work and brainpower.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s a bet I&amp;rsquo;m willing to take.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are interested in finding programmers in Africa please checkout this job board at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jobs.whiteafrican.com/&quot;&gt;http://jobs.whiteafrican.com/&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introducing RapidResponse a mHealth Platform built with RapidSMS</title>
+   <link href="http://buildafrica.org/posts/introducing-rapidresponse"/>
+   <updated>2009-07-09T07:09:13+03:00</updated>
+   <id>http://buildafrica.org/posts/introducing-rapidresponse</id>
+   <content type="html">&lt;p&gt;I&amp;rsquo;m very proud to announce RapidResponse, a mHealth platform built with RapidSMS.  This is a project that I have been working to develop at the Earth Institute with Professor &lt;a href=&quot;http://www.me.columbia.edu/fac-bios/modi/lab.html&quot;&gt;Vijay Modi&lt;/a&gt; in collaboration with &lt;a href=&quot;http://www.unicefinnovation.org&quot;&gt;UNICEF Innovation team&lt;/a&gt; and a number of other partners for the Millennium Villages Project.&lt;/p&gt;
+
+&lt;p&gt;The idea for RapidResponse originated from a conversation with Jessica Fanzo, an amazing nutritionist that I am lucky enough to work with. We spoke at length about a program called &lt;a href=&quot;http://www.fantaproject.org/cmam/training.shtml&quot;&gt;Community-Based Management of Acute Malnutrition (CMAM)&lt;/a&gt; that she was interested in implementing in the Millennium Villages.  At that time, I was increasingly involved with the UNICEF team on the development of RapidSMS. CMAM struck me as a great example of medical system that we could support with technology.  I wanted to avoid the trap of creating a use case around a technology that we were keen to deploy. As a result, RapidResponse was originally designed to provide support for the management of a CMAM program deployed primarily by Community Health Workers (CHWs).   It has since morphed to include support for malaria and diarrhea screening two other major killers of children under five in Africa.&lt;/p&gt;
+
+&lt;p&gt;What excites me most about RapidResponse, besides the impact I hope it will have in health, is that it begins to show us the full potential and range of application that an SMS based approach with server-side logic can provide.  RapidResponse is more than just data collection providing decision-tree based diagnosis support, workflow management, and core messaging services. It helps automate and facilitate and coordinate the activities of field based health care staff and supports a powerful alert system that has the potential to help reduce gaps in treatment.&lt;/p&gt;
+
+&lt;p&gt;RapidResponse is very much a collaborative effort between a number of groups and individuals who have all contributed tremendously to the progress made thus far. The &lt;a href=&quot;http://unicefinnovation.org&quot;&gt;UNICEF Innovations Team&lt;/a&gt; have been fully engaged with this project from the offset and have provided along with many other things generous programming support. Their continued engagement will be key to RapidResponse’s growth.  Also highly influential was the incredible work of a group of SIPA students from Columbia University, who showed that RapidSMS could effectively be used to &lt;a href=&quot;http://mobileactive.org/evaluation-rapidsms-increase-child-nutrition-surveillance-malawi&quot;&gt;monitor malnutrition in children in Malawi&lt;/a&gt;.   Working closely in particular with Ray Short and Sean Blaschke,  we incorporated the needs of their system and what we were developing for MVP into a single, unified malnutrition monitoring platform.   Special thanks are due to the MVP Health team and in particular to Dr. James Wariero and Saleena Subaiya who provided the on-the-ground insight of the  how the system should work.  Jessica Fanzo and Roger Sodjinou, the nutrition and malnutrition treatment experts, provided guidance in developing the system around the CMAM protocol.  Lastly, thanks are due Schuyler Erle and &lt;a href=&quot;http://www.djangozen.com/blog/11-days-in-kenya&quot;&gt;Andy McKay&lt;/a&gt; who transformed concepts into code, and the growing RapidSMS open source programmer community who have built the pieces to make all of this possible.&lt;/p&gt;
+
+&lt;p&gt;I realize developing a system is meaningless if we can’t show impact.  We are in the initial faces of piloting RapidResponse to support the delivery of CMAM by CHWs in one of our sites in Kenya.  While the pilot is in its early stages, I am encouraged by the initial results that we hope to be able to share through updates in the upcoming months.&lt;/p&gt;
+
+&lt;p&gt;In the mean time, our hope is to continue to build RapidResponse as an open mHealth platform that will ultimately enable partners in the field to deliver health services more effectively and efficiently.   Our hope is to build a flexible platform around which a coalition of partners can coalesce and to which they can contribute.  Through the actual implementation of projects in the field, we are hoping to drive resources into the further development and refinement of a system that will benefit all partners.  We envision a system that is flexible enough for any group to customize to their individual use case (there will always be the need) and that will eventually be easy enough to configure (via web interface) that grass route groups or government agencies with limited resources could deploy on their own.   We realize this is a grand vision (and we&amp;rsquo;re not the first with this aim) but we feel that by taking an open approach we&amp;rsquo;ve started to put together a solid foundation, both from a technical and partner standpoint, to make this possible.&lt;/p&gt;
+
+&lt;p&gt;For a complete technical overview please visit the &lt;a href=&quot;http://www.rapidsms.org/rapidresponse&quot;&gt;RapidResponse&lt;/a&gt; project page on &lt;a href=&quot;http://www.rapidsms.org&quot;&gt;www.rapidsms.org&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rethinking the term "Solar Systems"</title>
+   <link href="http://buildafrica.org/posts/rethinking-the-term-solar-systems"/>
+   <updated>2009-06-15T20:34:47+03:00</updated>
+   <id>http://buildafrica.org/posts/rethinking-the-term-solar-systems</id>
+   <content type="html">&lt;p&gt;I had a really interesting discussion at work with my boss &lt;a href=&quot;http://www.me.columbia.edu/fac-bios/modi/lab.html&quot;&gt;Vijay Modi&lt;/a&gt; and some colleagues about the real costs of an off-grid &amp;ldquo;solar&amp;rdquo; systems.  The perception is often that solar panels make up the bulk of the cost of an off-grid system.  The reality, however, with any time horizon over three years is that the cost of batteries will be the biggest determining factor of cost over time.  It is for this reason, that &lt;a href=&quot;http://books.google.com/books?id=nPfp9CgTDxcC&amp;amp;dq=mark+hankins+solar&amp;amp;printsec=frontcover&amp;amp;source=bl&amp;amp;ots=vZ4Nyb8AWz&amp;amp;sig=92q7cBRPhepa8fevtinIVW_RUeI&amp;amp;hl=en&amp;amp;ei=tv42SuSlFM60twe158zeDA&amp;amp;sa=X&amp;amp;oi=book_result&amp;amp;ct=result&amp;amp;resnum=3&quot;&gt;Mark Hankin&amp;rsquo;s&lt;/a&gt; argues that off-grid system should not be called &amp;ldquo;solar systems&amp;rdquo; but rather &lt;strong&gt;battery-based systems&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you consider that most off-grid systems in Africa fail after three years, this term is unfortunately even more appropriate.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Quick Hits {20090610}</title>
+   <link href="http://buildafrica.org/posts/quick-hits-20090610"/>
+   <updated>2009-06-09T23:08:15+03:00</updated>
+   <id>http://buildafrica.org/posts/quick-hits-20090610</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.nhpr.org/node/25400&quot;&gt;Nice Interview&lt;/a&gt; by Sean Blaschke on New Hampshire Public Radio on the Columbia/UNICEF Malawi Malnutrition Monitoring pilot using &lt;a href=&quot;http://www.rapidsms.org&quot;&gt;RapidSMS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Useful &lt;a href=&quot;http://gkpnet.org/events/calendar/calendar.do&quot;&gt;ICT4D Calendar &lt;/a&gt;by GKPNet&lt;/li&gt;
+&lt;li&gt;Great story by &lt;a href=&quot;http://subsaharska.maneno.org/eng/articles/tnp1244522736/&quot;&gt;Subsarahska&lt;/a&gt; on the DR Congo Inland Fiber cable.  Love the part about Kabila going himself to state that the cable was made out of glass and worthless to steal.  It then goes on to explain how earlier 75KM of copper cable was stolen.. in one night.&lt;/li&gt;
+&lt;li&gt;WhiteAfrican makes an &lt;a href=&quot;http://whiteafrican.com/2009/06/06/hurdles-of-high-tech-entrepreneurs-in-africa/&quot;&gt;impassioned argument&lt;/a&gt; on how to support high-tech entrepreneurship in Africa and sheds some interesting light on how the new &lt;a href=&quot;http://whiteafrican.com/2009/06/09/gmail-preview-starts-in-africa/&quot;&gt;Gmail Google Preview&lt;/a&gt; feature was inspired by Google Employees who experienced the glory of an Ethiopian Cyber Café&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://makerfaireafrica.com/&quot;&gt;Maker Faire Africa&lt;/a&gt; dates are set for August 14-16th in Accra.  They are actively looking both for &lt;a href=&quot;http://makerfaireafrica.com/call-for-makers/&quot;&gt;makers&lt;/a&gt; and sponsors.  There is an option on their website to make individual, small donations if you want to help.&lt;/li&gt;
+&lt;li&gt;Interesting post on &lt;a href=&quot;http://twitterdata.org/&quot;&gt;Twitter Data&lt;/a&gt;: an open proposal for embedding data in twitter messages.  Includes some interesting ideas that could also apply to SMS.&lt;/li&gt;
+&lt;li&gt;Last but not least, &lt;a href=&quot;http://www.afropop.org/multi/feature/ID/885&quot;&gt;AfroPop&amp;rsquo;s Summer Concert Schedule&lt;/a&gt;.  Some great African groups coming through the States and Canada this summer that arent' to be missed.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>MVP ICT "Village Network" Talk</title>
+   <link href="http://buildafrica.org/posts/mvp-ict-village-network-talk"/>
+   <updated>2009-05-14T09:37:28+03:00</updated>
+   <id>http://buildafrica.org/posts/mvp-ict-village-network-talk</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://vimeo.com/4061711&quot;&gt;Matt Berg &amp;ndash; Millennium Villages Student Research Showcase&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/ei&quot;&gt;Earth Institute&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is a brief talk I gave at a recent research showcase at Columbia.  In it I discuss how we brought Internet connectivity to Ruhiira our rural community in Uganda using a large wifi network that we put in place with the help of &lt;a href=&quot;http://www.inveneo.org&quot;&gt;Inveneo&lt;/a&gt;.  The network is currently being used to connect about 5 clinics, 3 schools and several other community institutions to the nearest Internet connection 35KM away.  As a local intranet, the network is adding tremendous value by enabling free VOIP calls between sites and is also being used by the clinics to facilitate a central medical records system.&lt;/p&gt;
+
+&lt;p&gt;In the future, I will try and provide a much more detailed overview of this project but for now it provides a glance at how wifi can be used to bring connectivity when commercial options are not currently available.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Off-Grid Solar Calculator</title>
+   <link href="http://buildafrica.org/posts/off-grid-solar-calculator"/>
+   <updated>2009-05-03T11:48:44+03:00</updated>
+   <id>http://buildafrica.org/posts/off-grid-solar-calculator</id>
+   <content type="html">&lt;p&gt;Part of my job over the past couple of years has entailed doing energy sizing for off-grid photo voltaic (PV) solar systems.  To help with this I have relied largely on an excel-based &lt;a href=&quot;http://www.buildafrica.org/files/solar_toolkit.xls&quot;&gt;solar calculator&lt;/a&gt; that I created.  I thought it might be useful to share.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.buildafrica.org/files/solar_toolkit.xls&quot;&gt;Solar Toolkit&lt;/a&gt; &amp;ndash; excel based solar calculator. Last updated 05.03.09. Please see instructions for proper usage.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.buildafrica.org/files/africa_solar_radiation.pdf&quot;&gt;Solar Radiation Chart&lt;/a&gt; &amp;ndash; useful for estimating peak solar of your location (# hours of day of strong sunlight)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.soda-is.com/img/Map_AF-Glob_opta-150DPI-final-v2.png&quot;&gt;Solar Radiation Chart 2&lt;/a&gt; &amp;ndash; includes optimal PV inclination angles for facing the sun&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Please note: this is NOT intended to replace getting a detailed power estimate from a local solar expert who can best take in account the local conditions. This is more intended to help you with estimates when you are looking to bring a project off-grid. Please use at your own risk.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solar Costing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A common question relating to PV systems is what does it cost?  A technique commonly used is to estimate the cost at $10-per-watt. This includes the cost of the panels, batteries, charge controller and wiring &amp;ndash; installed.  A 100W system, for example, would cost you around $1,000.   You can begin to see why we tend to get so nutty about power efficiency! =)&lt;/p&gt;
+
+&lt;p&gt;Note: In Africa we&amp;rsquo;ve found this price to vary widely from $10 to over $15 due to different policies on import taxation, transport costs and varying levels of local competition.  Also, $10-per-watt is for the initial setup of a PV system only.  To consider issues of sustainability, it is important to take in account that batteries will need to be replaced every 2-3 years and the charge controller ever five.  If you wish to factor in replacement costs, to keep the system operational,  $15-per-watt should be used.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pictures from Mali</title>
+   <link href="http://buildafrica.org/posts/pictures-from-mali"/>
+   <updated>2009-03-16T11:23:35+03:00</updated>
+   <id>http://buildafrica.org/posts/pictures-from-mali</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://vimeo.com/3654117&quot;&gt;Mali&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/user1435325&quot;&gt;BuildAfrica&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is a montage of pictures I took during the two years I lived in Mali &amp;ndash;  in my mind one of the most beautiful and culturally rich places you could have the fortune to experience.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Toys from Trash</title>
+   <link href="http://buildafrica.org/posts/toys-from-trash"/>
+   <updated>2009-03-08T23:23:57+03:00</updated>
+   <id>http://buildafrica.org/posts/toys-from-trash</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http:/wp-content/uploads/2009/03/arvindgupta.jpg&quot;&gt;&lt;img src=&quot;http://buildafrica.org/wp-content/uploads/2009/03/arvindgupta-575x394.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Photo and quotes from &lt;a href=&quot;http://vidyaonline.org/arvindgupta/toimirrorfeb09.pdf&quot;&gt;Toy Story&lt;/a&gt; Times of India story&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Some people talk about trying to change the world, then there are people like &lt;a href=&quot;http://www.arvindguptatoys.com&quot;&gt;Arvind Gupta&lt;/a&gt; who have spend the last 30 years doing so.  A graduate of IIT, Gupta left a promising career as a Telco engineer, to teach science.  After seeing expensive UNICEF science kits left unopened, for fear of being damaged, Gupta realized that teachers needed to be able to make things themselves to be able to teach well.  Ascribing to a view point that, &amp;ldquo;Science is not hardware, it is a viewpoint,&amp;rdquo; he began to create &amp;ldquo;toys&amp;rdquo; from everyday items, often trash, to teach children scientific concepts with the underlying belief that a more expensive education does not necessarily translate into a better one.  Gupta and his team at the Children&amp;rsquo;s Science Centre at the University of Pune&amp;rsquo;s amazing work can be found on the incredible &lt;a href=&quot;http://www.arvindguptatoys.com/toys.html&quot;&gt;Toys from Trash&lt;/a&gt; website.&lt;/p&gt;
+
+&lt;p&gt;When I see project&amp;rsquo;s like the &lt;a href=&quot;http://www.arvindguptatoys.com/toys/electricmotor.html&quot;&gt;simple electric motor&lt;/a&gt;, I can&amp;rsquo;t help but wonder how many more &lt;a href=&quot;http://www.ted.com/index.php/speakers/william_kamkwamba.html&quot;&gt;William Kamkwamba&lt;/a&gt;&lt;a href=&quot;http://www.ted.com/index.php/speakers/william_kamkwamba.html&quot;&gt;&amp;rsquo;s&lt;/a&gt; we would we have if teachers had access to Gupta &amp;ldquo;toys&amp;rdquo; in rural African schools.&lt;/p&gt;
+
+&lt;p&gt;When not designing new toys, Gupta also translates books into Hindi (&lt;a href=&quot;http://www.arvindguptatoys.com/&quot;&gt;100+ books!)&lt;/a&gt; which he posts for free on his &lt;a href=&quot;http://www.arvindguptatoys.com/&quot;&gt;website&lt;/a&gt;.   I need to file Arvind Gupta in the back of my mind for the next time I am feeling lazy!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Leveraging Internet with Radio</title>
+   <link href="http://buildafrica.org/posts/leveraging-internet-with-radio"/>
+   <updated>2009-02-25T23:50:28+03:00</updated>
+   <id>http://buildafrica.org/posts/leveraging-internet-with-radio</id>
+   <content type="html">&lt;p&gt;Within ICT4D practice, there seems to be little debate, at least when you look at implementation funding, that bringing Internet to rural areas in places like Africa that had been previously &amp;ldquo;cut off&amp;rdquo; is good idea and potentially transformative.   Until recently more recently, &amp;ldquo;bringing the Internet&amp;rdquo; has meant usually plunking down a VSAT, setting up a small computer lab and hoping someday that one day it will become sustainable.&lt;/p&gt;
+
+&lt;p&gt;Despite being by and large, unsustainable, such projects are still difficult and are important from a symbolic standpoint and do serve as a temporary bridge in some ways for the digital divide.  The problem that is even harder to address is accessibility.  How many people actually get to access the Internet on the computers and when then they do are they using it in a way that&amp;rsquo;s socially beneficial?&lt;/p&gt;
+
+&lt;p&gt;Eventually low cost smart phones that are able to access the Internet in an acceptable way (think &amp;lt;$100 Chinese iPhone), will represent a paradigm shift in the way Africans connect to the Internet.   Until then, a community radio is probably the best way to make the information on the Internet accessible to rural communities.&lt;/p&gt;
+
+&lt;p&gt;The following is a story about a project in I worked on during my time at Geekcorps Mali which helps illustrate this point.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A Weekly Connection to the Outside World&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photos.mattberg.org/photos/477049097_3Bbtz-S.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Aboubacrine Touré admits to having become somewhat of a local celebrity in Bourem Inaly, a remote community about 30 kilometers west of Tombouctou on the Niger river in northern Mali. While he is the director of the local community radio station, Radio Beeray (Respect), he is best known throughout the region as the host of Journal of Journals, a weekly radio news program that airs every Sunday night.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Using an IESC Geekcorps Desert PC equipped with an R-BGAN Satellite Modem, Aboubacrine connects to the Internet in search of local and regional news that would be of interest to his listening audience. Over the span of the week, he carefully summarizes the news which he presents in the local language Songhai during his hour-long broadcast.&lt;/p&gt;
+
+&lt;p&gt;Radio Beeray’s ability to connect to the Internet is a direct result of USAID Mali’s Communication for Development objective whose aim is “to make it easier for Malians to get access to information that will enable them to improve the quality of their lives.” In partnership with USAID Mali, IESC Geekcorps set out to develop an affordable solution for providing Internet access to its partner radio stations at sites across the remote desert region of northern Mali. Based on VIA components, Geekcorps designed the Desert PC to withstand the extreme heat and dust of a harsh desert environment. Additionally, its power draw is less then a 60W light bulb, which makes the PC ideal for an environment where solar is the primary source of energy. An R-GBAN system along with bandwidth limiting software can be paired with the Desert PC to provide an affordable medium for a community to connect to the outside world.&lt;/p&gt;
+
+&lt;p&gt;Since Aboubacrine started the program in early 2006, its reception from the local community has been very positive. He knows of many people who even bought radios for the first time so their families could tune into his program and be connected to the outside world through the news.&lt;/p&gt;
+
+&lt;p&gt;When a technical difficulty caused the radio station’s Internet connection to be down temporarily, he was amazed by the number of people who wrote in to complain.&lt;/p&gt;
+
+&lt;p&gt;Initially, Journal of Journals was met with a lot of skepticism. Since most people in his remote village had never heard of the Internet, he was often accused of, “making the news up!” Aboubacrine explains. This was especially the case earlier this year when Radio Beeray broke the news that Tuareg rebels had attacked the northern outpost of Kidal. Most people simply did not believe that such an attack was possible and were particularly doubtful since no one from neighboring Timbuktu could corroborate the report. The next day when the Malian national press picked up the story, Radio Beeray skeptics became dedicated listeners.&lt;/p&gt;
+
+&lt;p&gt;While he primarily uses the Internet to email and get current news (especially stories relating to tensions in the north and the Ivory Coast civil war), Aboubacrine often has requests to look up things like telephone country codes or weather forecasts. Additionally, the encyclopedia that came installed with the computer has been very popular with local students. Mr. Touré, who also works as a teacher at the local school, admits that access to the Internet has even had a positive effect on his lesson planning. While it will likely be years before the average Malian has access to the web, Radio Beeray shows the Internet remains a powerful tool for helping to bridge the information gap.&lt;/p&gt;
+
+&lt;p&gt;There are some key take aways from this project that are important to share.   From a technical standpoint, it was a tremendous success.  Using a lot of clever engineering, we were able to limit the radio&amp;rsquo;s bandwidth consumption to about 200K/day or $6 (1MB) a week, which the Radio Director was able to use to connect his community to the outside world &amp;ndash; certainly a lot of &amp;ldquo;bang-for-the-byte&amp;rdquo;.  Despite getting the total Internet cost down to about $30-40 a month (vs. $300+ for VSAT), an amount the Radio could probably sustain, Radio Beeray currently has no Internet.   The reason, which is almost always the case, once funding ends payments stop to the satellite provider.    We worked so hard to engineer a solution that was affordable that we overlooked the fact that once Geekcorps was gone they would have no way of paying.    This is too often the case and in many cases it is unavoidable.&lt;/p&gt;
+
+&lt;p&gt;The good news is that increasingly you are able to pay for data via a prepaid scratch card, the same you use to fill up your cell.    2G/3G in Africa is coming and when it gets to Tomboctou, Radio Beeray will be able to stay online.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Offline Wikipedias</title>
+   <link href="http://buildafrica.org/posts/offline-wikipedias"/>
+   <updated>2009-02-06T00:03:59+03:00</updated>
+   <id>http://buildafrica.org/posts/offline-wikipedias</id>
+   <content type="html">&lt;p&gt;Offline wikipedias represent an important source for information for places that have no/unreliable/expensive or censored Internet.  I would like to highlight two projects that I have experience with.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SOS School Wikipedia&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://schools-wikipedia.org/sos-uk-logo.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.soschildrensvillages.org.uk/&quot;&gt;SOS Children&amp;rsquo;s Villages&lt;/a&gt; recently released an updated &lt;a href=&quot;http://schools-wikipedia.org/&quot;&gt;SOS 2008/2009&lt;/a&gt; version of its kid safe, &amp;ldquo;hand checked&amp;rdquo; English Wikipedia version aimed at school children with selections based around the UK National Curriculum.  This version is 3.5GB big and contains 5,500 articles which is about the size of a 20 volume encyclopedia consisting of about 20 million words and 34,000 images (big selling point for kids).  The earlier version was distributed widely by the Shuttleworth foundation in South Africa and the through SOS&amp;rsquo;s large network of schools worldwide (192 schools &amp;amp; 91,000 students).&lt;/p&gt;
+
+&lt;p&gt;The SOS version comes in the form of static html so it can be easily run off a DVD or USB key on any computer.  Content is organized by subject and with a handy &lt;a href=&quot;http://schools-wikipedia.org/wp/index/alpha.htm&quot;&gt;title word index&lt;/a&gt; that does a good job replacing search functionality.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://schools-wikipedia.org/&quot;&gt;SOS School Wikipedia 2008/2009&lt;/a&gt; version can be downloaded for free &lt;a href=&quot;http://www.soschildrensvillages.org.uk/schools-wikipedia-full-20081023.tar.gz.torrent&quot;&gt;here&lt;/a&gt; as a torrent.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moulin Wiki&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Moulin Wiki was a project that came out of the &lt;a href=&quot;http://mali.geekcorps.org&quot;&gt;Geekcorps Mali &lt;/a&gt;program during my time there,  the brain child of  &lt;a href=&quot;http://www.kunnafoni.org&quot;&gt;Renaud Gaudin&lt;/a&gt; and Frederic Renet.   At that time, we weren&amp;rsquo;t able to find a suitable offline wikipedia version so we saught to create it.&lt;/p&gt;
+
+&lt;p&gt;Moulin Wiki is a desktop application based on &lt;a href=&quot;https://developer.mozilla.org/en/XULRunner&quot;&gt;Mozilla&amp;rsquo;s XULRunner&lt;/a&gt; and can run on windows, osx and linux.  Unlike a selected version, our goal was make available the entire Wikipedia text, indexed and searchable. We were unable, however, to include images due to both licensing and size constraints.&lt;/p&gt;
+
+&lt;p&gt;Since our target market were people living in Mali, we released a French 550MB CDROM version containing 500K+ articles which we distributed across the country through our partners and Peace Corps Volunteers.  Internews then sponsored the creation of a Farsi version which they distributed over 2,000 copies to journalists, universities and individuals in Iran.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/farsi.jpg&quot; alt=&quot;&quot; /&gt;](http:/wp-content/uploads/2009/02/farsi.jpg)&lt;/p&gt;
+
+&lt;p&gt;Moulin is currently available in&lt;a href=&quot;http://reg.kiwix.org/download/&quot;&gt; French, Arabic, Farsi and Vietnamese&lt;/a&gt; with an English version still in the works.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Zipedia&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/2423&quot;&gt;Zipedia&lt;/a&gt; is a Firefox extension that is able to read a &lt;a href=&quot;http://download.wikimedia.org/&quot;&gt;Wikipedia dump&lt;/a&gt; to provide offline access.  I really like the concept of being able to update your content by downloading new dumps (in any language). One of problems with this approach, however, is since there is no indexing is the user experience is not very zippy.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google Gears = Offline Gmail = Killer African Web App</title>
+   <link href="http://buildafrica.org/posts/google-gears-offline-gmail-better-african-user-experience"/>
+   <updated>2009-02-02T22:37:49+03:00</updated>
+   <id>http://buildafrica.org/posts/google-gears-offline-gmail-better-african-user-experience</id>
+   <content type="html">&lt;p&gt;Earlier this week with little fanfare, Google enabled browser based, &lt;a href=&quot;http://gmailblog.blogspot.com/2009/01/new-in-labs-offline-gmail.html&quot;&gt;offline access&lt;/a&gt; to Gmail.  While this is exciting for all of us who who have long yearned to ditch our desktop email clients, the ability to now access webservices like Gmail, even when we are offline, has enormous implications towards improving the way people living in Africa will now be able to access the Internet.&lt;/p&gt;
+
+&lt;p&gt;While things are rapidly improving, connecting to the Internet in Africa can still be a painfully slow experience in most places &amp;ndash; the result of over-shared bandwidth, poorly managed backbones and the high latency of satellite jumps.  All this contributes to a very unstable connection, one that handles things like Ajax requests poorly resulting in a lot of time outs that plague many Web2.0 applications.  It&amp;rsquo;s clear that many modern web apps weren&amp;rsquo;t designed with African Internet conditions in mind.&lt;/p&gt;
+
+&lt;p&gt;Offline Gmail is made possible by &lt;a href=&quot;http://gears.google.com/&quot;&gt;Google Gears&lt;/a&gt; which stores a local cache of messages behind the scenes when connected.  This enables users to access a Google Gears enabled website like Gmail (Google Docs now works offline too) through a web browser and experience a similar web experience to if they were online.&lt;/p&gt;
+
+&lt;p&gt;While having offline access to one&amp;rsquo;s webmail is a huge benefit on its own,  the emergence of Gears enabled sites is exciting for Africa for a number of different reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Dealing with poor connections with &lt;a href=&quot;http://groups.google.com/group/gmail-labs-help-offline/web/flaky-connection-mode&quot;&gt;flaky connection mode&lt;/a&gt;&lt;/strong&gt; &amp;ndash; a Gears enabled Gmail now includes a &amp;ldquo;flaky&amp;rdquo; mode which enables you to always run off the local store with emails syncing in the background ensuring a continous user experience regardless of your connection status.  I can now finally retire my email IMAP client.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Better bandwidth use &lt;/strong&gt;&amp;ndash; The advantage of POP and IMAP is that the internet connections in Africa are typically better at streaming/straight data transfers.  Google Gears greatly cuts down on the requests of a webapp by downloading queued messages in the background similar to POP or IMAP.  While it still may be slow, at least with POP you know you&amp;rsquo;ll only have to download a message once.  You also now have the option leaving your Gmail open to download messages.  Finally, while tests to verify this are required, it can be assumed that the bandwidth consumption when using Gears will be lower which is important when dealing with a pay-per-byte connectivity model which one encounters when connecting via an Edge/3G cellphone connection.  In aggregate this gain in efficiency is important when you consider that &lt;a href=&quot;http://news.bbc.co.uk/2/hi/technology/7063682.stm&quot;&gt;70% of Internet within Africa is routed outside of the continent&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;I&lt;/strong&gt;&lt;strong&gt;n Africa web apps / portability is king&lt;/strong&gt; &amp;ndash; client based email only works when you have dedicated access to your own computer.  Since this is rarely the case in Africa, the vast majority of people have jumped straight to webmail.  Google Gears is probably not optimal for a certain environments where there is a high user turnover (you would downloading everyone&amp;rsquo;s messages).  There will undoubtedly be some clever solutions for this in short time. I could see USB keys with a &lt;a href=&quot;http://bohemiantribe.blogspot.com/2008/08/google-gears-with-portable-firefox.html&quot;&gt;Google geared portable Firefox&lt;/a&gt; quickly becoming the email solution of choice for African university students.  Another option would be to simply run Firefox in a lab setting from a network drive.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;To access Gmail when you are offline, you will need to enable offline in your Gmail Lab settings and have the newest version of &lt;a href=&quot;http://gears.google.com/&quot;&gt;Google Gears&lt;/a&gt; installed.  Once enabled, Google Gears will begin an initial sync syncing approximely the last two weeks of your email.  Depending on how popular you are and the speed of your connection, this could take from 5-15 minutes.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Geekcorps CanTV</title>
+   <link href="http://buildafrica.org/posts/geekcorps-cantv"/>
+   <updated>2006-11-10T10:28:44+03:00</updated>
+   <id>http://buildafrica.org/posts/geekcorps-cantv</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Geekcorps CanTV Project&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In November, 2006 Geekcorps did a CanTV pilot in Bourem Inaly, a small village on the Niger river about 35KM from Tombouctou in northern Mali.  Our hope was to pilot a new technology we had developed to see if it could be used to generate revenue for the community radio station we had been working with there.&lt;/p&gt;
+
+&lt;p&gt;The following is from an earlier post, I had posted originally on the Geekcorps website summarizing the project.&lt;/p&gt;
+
+&lt;p&gt;In the village of Bourem Inaly, Mali there are over 120 television sets powered by 12-volt car batteries, but there is almost nothing to watch. With its CanTV project, Geekcorps has helped the local radio station stream video content to the local community over WiFi. The radio station, which rents these units out, benefits from a new monthly revenue stream while the villagers benefit with an improved source of news and entertainment.&lt;/p&gt;
+
+&lt;p&gt;One goal of the CanTV project is to make it possible to build the CanTV receivers or TV cantennas (antennas built with cans) using locally using locally available parts, with the exception of the $25 audio/video receiver currently imported from Canada. Also, the TV cantennas have been designed so that a local technician can quickly learn how to install them without special tools. The radio station already has access to television broadcasts via satellite, and a TV over WiFi transmitter installed in August 2005 by Moussa Keita of Geekcorps.&lt;/p&gt;
+
+&lt;p&gt;Recently, Geekcorps successfully installed CanTV’s in fifteen different households (213 people) across Bourem Inaly. As a result, the radio station earns roughly $45 dollars a month or (22,500 CFA) on the rentals of the CanTV’s which goes a long way in helping to ensure the radio’s own financial sustainability. The radio station’s goal now is to reinvest its profits to purchase an additional CanTV each month so more of the local community can benefit from their new service offering.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Cultural Iceberg</title>
+   <link href="http://buildafrica.org/posts/cultural-iceberg"/>
+   <updated>2005-06-25T09:46:19+03:00</updated>
+   <id>http://buildafrica.org/posts/cultural-iceberg</id>
+   <content type="html">&lt;p&gt;Recently, I had the opportunity to go through a brief cultural orientation held by the talented folks at &lt;a href=&quot;http://www.acibaobob.org&quot;&gt;ACI Baobob Center&lt;/a&gt; in Dakar.  During the meeting, besides learning a couple of basic words in Wolof and eating a traditional meal around the &amp;ldquo;bowl&amp;rdquo; we are introduced to an incredible cultural orientations model that attempts to explain cultural interaction with the analogy of an iceberg.   I found ACI&amp;rsquo;s interpreation of the&quot;iceberg&quot; model, which was first introduced in 1995 in the book &lt;a href=&quot;http://www.amazon.com/exec/obidos/redirect?tag=buildafricaor-20%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0071378324%2526tag=buildafricaor-20%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0071378324%25253FSubscriptionId=0EMV44A9A5YT1RVDGZ82&quot;&gt;Doing Business Internationally&lt;/a&gt;, to be an extremely effective model for attempting to understand cultural perspective and I&amp;rsquo;m frankly quite shocked that after +$180K and two college degrees later (from great international schools) I hadn&amp;rsquo;t come across this model.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How it works&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In brief, I this is how the model works.  When you first arrive in a foreign culture, you start at the tip of the iceberg.  Above the waterline, which represents your level of cultural awareness,  are the actions, thoughts, and words (observational behavior) of a culture.  What you don&amp;rsquo;t see, however, until your waterlevel lowers revealing more of the iceberg is the beliefs, values, and assumptions of a culture that motivates the observational behavior above the surface.    Thus, the waterline is one of the reasons wars are fought and you can&amp;rsquo;t help but feel lost when exposed to a new culture.&lt;/p&gt;
+
+&lt;p&gt;Correspondingly, one of the keys to cultural orientation is understanding the three elements of human behavior since we tend to pack or own beliefs, values and assumptions along with our bags when entering a new culture.  The &lt;strong&gt;human&lt;/strong&gt; dimension is that we are all common in that we all need to do things like eat and drink to survive.  The &lt;strong&gt;cultural&lt;/strong&gt; dimension explains how and what a culture prefers to eat.   Lastly, is the &lt;strong&gt;personal&lt;/strong&gt; dimension that influences things like when you are used to eating dinner.  In a foreign land, understanding your own personal dimensions (much of it driven by your culture) is important to help avoid the stereotypes which are often seeded and nurtured at this level.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Black Lies&amp;rdquo;&lt;/strong&gt;
+One of our instructors claimed that &amp;ldquo;white lies&amp;rdquo; should be renamed to &amp;ldquo;black lies&amp;rdquo; since perhaps nowhere is the art practiced more then in Senegal.  There is a popular expression in Wolof that goes, &lt;em&gt;&amp;ldquo;a lie that keeps people together is better then the truth which breaks people apart&amp;rdquo;&lt;/em&gt;.   From a westerner&amp;rsquo;s cultural perspective you can begin to see how quickly we can begin misconstrue Senegalese culture.  Take for example the meaning of &amp;ldquo;liar&amp;rdquo;. If I was having an affair and my friend who I had confided this information divulged this to my community, I could rightfully call him a liar within the Senagelese cultural context.  From a Westerner&amp;rsquo;s perspective, while clearly I would be angry at my &amp;ldquo;once friend&amp;rdquo; for betraying my trust, internally I would not be able to consider him a liar for revealing the truth which I had been trying to hide.  This is not the case in Senegal, where the greater crime is not keeping a secret that potentially threatens the social fabric of the group.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;One Campaign Update&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you haven&amp;rsquo;t done it yet, you still have time to sign the &lt;a href=&quot;http://mberg.buildafrica.org/2005/06/07/the-one-campaign/&quot;&gt;One Campaign&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nelson Mandela has just contributed this &lt;a href=&quot;http://www.sun.com/one/mandela/&quot;&gt;powerful message&lt;/a&gt; calling for us to be part of the great generation.   If you have the chance, I highly recommend you take the time to listen to this man&amp;rsquo;s &lt;a href=&quot;http://www.sun.com/one/mandela/&quot;&gt;words&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
