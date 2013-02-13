@@ -4,12 +4,29 @@
  <title>Build Africa</title>
  <link href="http://buildafrica.org/atom.xml" rel="self"/>
  <link href="http://buildafrica.org/"/>
- <updated>2013-02-13T10:25:47+03:00</updated>
+ <updated>2013-02-13T12:30:30+03:00</updated>
  <id>http://buildafrica.org</id>
  <author>
    <name>Build Africa</name>
  </author>
  
+ 
+ <entry>
+   <title>BuildAfrica Reboot</title>
+   <link href="http://buildafrica.org/posts/buildafrica-reboot"/>
+   <updated>2013-02-13T00:00:00+03:00</updated>
+   <id>http://buildafrica.org/posts/buildafrica-reboot</id>
+   <content type="html">&lt;p&gt;BuildAfrica.org has admittedly been ideal for a long time.  I experimented in shifting my blogging to a tumblr site at &lt;a href=&quot;http://mattberg.org&quot;&gt;mattberg.org&lt;/a&gt; but quickly became a bit frustrated with tumblr. As part of a personal quest, to see how much of my life I can use &lt;a href=&quot;http://github.com/mberg&quot;&gt;github&lt;/a&gt; to manage I decided to use this as a chance to learn Jekyll and reboot my blog.&lt;/p&gt;
+
+&lt;p&gt;Upon the advice of many, I&amp;rsquo;ve decided to go back to using &lt;a href=&quot;http://buildafrica.org&quot;&gt;buildafrica.org&lt;/a&gt; as my primary blog as I&amp;rsquo;ve used it for over a decade and represents what I am about.  &lt;a href=&quot;http://mattberg.org&quot;&gt;mattberg.org&lt;/a&gt; might possibly be used as a personal reference site to host my CV, etc.  We&amp;rsquo;ll see.&lt;/p&gt;
+
+&lt;p&gt;Finding time to write has been the biggest culprit.  Recently, I moved back to Africa and am now based in Nairobi, Kenya where I&amp;rsquo;ll be for the foreeseable future.  My experiences here, I hope will inspire me to write more.&lt;/p&gt;
+
+&lt;p&gt;The site design is still a very much a work in progress. For now, I&amp;rsquo;m just using a fork of Zach Holman&amp;rsquo;s Jeykll theme called &lt;a href=&quot;https://github.com/holman/left&quot;&gt;Left&lt;/a&gt;. I decided to host this as a static site on S3 after some struggles with github page configurations.  To do this I highly recommend following this great &lt;a href=&quot;http://vvv.tobiassjosten.net/development/jekyll-blog-on-amazon-s3-and-cloudfront/&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So for now my inner geek is happy. I can manage all my site content in github and do all work via the command line. :)  Check back later for hopefully some actual content.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>M4D Tech Trends 2011: What to expect and hope for</title>
