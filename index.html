@@ -2,7 +2,6 @@
 layout: layout
 title: "BuildAfrica.org"
 
-
 ---
 
 <section class="content">
@@ -21,12 +20,10 @@ title: "BuildAfrica.org"
 {% endfor %}	
     
 </section>
-
-
 <section class="footer">
 <section class="content">
   <table>
-    <tr><td colspan=2><h2>Prior Posts</h2></td></tr>
+    <tr><td colspan=2><h2>Past Posts</h2></td></tr>
     {% for post in site.posts %}
      <tr><td> <span>{{ post.date | date_to_string }}</span></td><td> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></td></tr>
     {% endfor %}
