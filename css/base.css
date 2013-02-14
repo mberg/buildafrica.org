@@ -168,7 +168,7 @@ a:hover {
   .content .listing {
     margin: 10px 0 0 0;
     padding: 0;
-    font-family: Helvetica, sans-serif; }
+    font-family: "Armata", Helvetica, sans-serif; }
     .content .list	    ing ul {
       margin: 0;
       padding: 0; }
@@ -178,7 +178,7 @@ a:hover {
       padding: 5px 3px;
       margin: 0;
       color: #777777;
-      border-bottom: 1px solid #eee; }
+      ; }
     .content .listing li span {
       float: right; }
     .content .listing a {

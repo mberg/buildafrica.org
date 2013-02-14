@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: []
 ---
-
 BuildAfrica.org has admittedly been ideal for a long time.  I experimented in shifting my blogging to a tumblr site at [mattberg.org](http://mattberg.org) but quickly became a bit frustrated with tumblr. As part of a personal quest, to see how much of my life I can use [github](http://github.com/mberg) to manage I decided to use this as a chance to learn Jekyll and reboot my blog.
 
 Upon the advice of many, I've decided to go back to using [buildafrica.org](http://buildafrica.org) as my primary blog as I've used it for over a decade and represents what I am about.  [mattberg.org](http://mattberg.org) might possibly be used as a personal reference site to host my CV, etc.  We'll see.

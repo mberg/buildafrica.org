@@ -5,7 +5,12 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 a {
-  color:#227ce8;}
+  color:#227ce8;
+text-decoration: none;
+}
+a:hover {
+  color: #FF8000;
+}
 .sidebar {
   position: fixed;
   left: 15px;
@@ -42,6 +47,7 @@ a {
   .sidebar .sections {
     margin: 15px 0 0 0; }
     .sidebar .sections a {
+      font-family: "Armata";
       padding: 3px 0;
       color: black;
       font-weight: bold;
@@ -63,8 +69,9 @@ a {
   margin-bottom: 50px; }
   .content td {
     color: #333;
-    font-family: "Helvetica", sans-serif;
-    font-size: 14px;
+    font-family: "Armata","Helvetica", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
    }
 
 
