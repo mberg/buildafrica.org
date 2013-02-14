@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      Google Gears = Offline Gmail = Killer African Web App &ndash;
+    
+    Build Africa
+  </title>
+
+  <meta name="author" content="Build Africa" />
+  <meta name="description" content="BuildAfrica.org is my personal blog which focuses primarily on the convergence of the two passions in my life - technology and Africa." />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <!--<img src="http://gravatar.com/avatar/1bccce72e2d2144b9ff5ef17e8d8d239?s=150" height="75" width="75" class="avatar" />-->
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="fname">Build</span>
+        <span id="lname">Africa</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/mberg" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/mberg" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/about.html">about</a></li>
+        <li><a href="/posts.html">posts</a></li>
+	<li><a href="/projects.html">projects</a></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="content">
+  <h1>
+    <a href="/2009/02/02/google-gears-offline-gmail-better-african-user-experience">Google Gears = Offline Gmail = Killer African Web App</a>
+  </h1>
+
+  <section class="byline">
+    February  2, 2009
+  </section>
+
+  <p>Earlier this week with little fanfare, Google enabled browser based, <a href="http://gmailblog.blogspot.com/2009/01/new-in-labs-offline-gmail.html">offline access</a> to Gmail.  While this is exciting for all of us who who have long yearned to ditch our desktop email clients, the ability to now access webservices like Gmail, even when we are offline, has enormous implications towards improving the way people living in Africa will now be able to access the Internet.</p>
+
+<p>While things are rapidly improving, connecting to the Internet in Africa can still be a painfully slow experience in most places &ndash; the result of over-shared bandwidth, poorly managed backbones and the high latency of satellite jumps.  All this contributes to a very unstable connection, one that handles things like Ajax requests poorly resulting in a lot of time outs that plague many Web2.0 applications.  It&rsquo;s clear that many modern web apps weren&rsquo;t designed with African Internet conditions in mind.</p>
+
+<p>Offline Gmail is made possible by <a href="http://gears.google.com/">Google Gears</a> which stores a local cache of messages behind the scenes when connected.  This enables users to access a Google Gears enabled website like Gmail (Google Docs now works offline too) through a web browser and experience a similar web experience to if they were online.</p>
+
+<p>While having offline access to one&rsquo;s webmail is a huge benefit on its own,  the emergence of Gears enabled sites is exciting for Africa for a number of different reasons:</p>
+
+<ul>
+<li><p><strong>Dealing with poor connections with <a href="http://groups.google.com/group/gmail-labs-help-offline/web/flaky-connection-mode">flaky connection mode</a></strong> &ndash; a Gears enabled Gmail now includes a &ldquo;flaky&rdquo; mode which enables you to always run off the local store with emails syncing in the background ensuring a continous user experience regardless of your connection status.  I can now finally retire my email IMAP client.</p></li>
+<li><p><strong>Better bandwidth use </strong>&ndash; The advantage of POP and IMAP is that the internet connections in Africa are typically better at streaming/straight data transfers.  Google Gears greatly cuts down on the requests of a webapp by downloading queued messages in the background similar to POP or IMAP.  While it still may be slow, at least with POP you know you&rsquo;ll only have to download a message once.  You also now have the option leaving your Gmail open to download messages.  Finally, while tests to verify this are required, it can be assumed that the bandwidth consumption when using Gears will be lower which is important when dealing with a pay-per-byte connectivity model which one encounters when connecting via an Edge/3G cellphone connection.  In aggregate this gain in efficiency is important when you consider that <a href="http://news.bbc.co.uk/2/hi/technology/7063682.stm">70% of Internet within Africa is routed outside of the continent</a>.</p></li>
+<li><p><strong>I</strong><strong>n Africa web apps / portability is king</strong> &ndash; client based email only works when you have dedicated access to your own computer.  Since this is rarely the case in Africa, the vast majority of people have jumped straight to webmail.  Google Gears is probably not optimal for a certain environments where there is a high user turnover (you would downloading everyone&rsquo;s messages).  There will undoubtedly be some clever solutions for this in short time. I could see USB keys with a <a href="http://bohemiantribe.blogspot.com/2008/08/google-gears-with-portable-firefox.html">Google geared portable Firefox</a> quickly becoming the email solution of choice for African university students.  Another option would be to simply run Firefox in a lab setting from a network drive.</p></li>
+</ul>
+
+
+<p>To access Gmail when you are offline, you will need to enable offline in your Gmail Lab settings and have the newest version of <a href="http://gears.google.com/">Google Gears</a> installed.  Once enabled, Google Gears will begin an initial sync syncing approximely the last two weeks of your email.  Depending on how popular you are and the speed of your connection, this could take from 5-15 minutes.</p>
+
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <a href="https://twitter.com/mberg" target="_blank">
+        <img src="http://gravatar.com/avatar/1bccce72e2d2144b9ff5ef17e8d8d239?s=142" height="50" width="50" />
+      </a>
+
+      <p>
+        I'm a technologist/geek living in Nairobi, Kenya. I believe open code and data can make the world a better place. <a href="https://twitter.com/mberg" target="_blank">Follow me on Twitter</a>;
+      </p>
+
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="mberg">Tweet</a>
+      <a href="http://twitter.com/mberg" class="twitter-follow-button" data-show-count="false">Follow @mberg</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'buildafrica'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+</section>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83697-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>

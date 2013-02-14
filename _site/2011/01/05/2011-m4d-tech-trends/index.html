@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      M4D Tech Trends 2011: What to expect and hope for &ndash;
+    
+    Build Africa
+  </title>
+
+  <meta name="author" content="Build Africa" />
+  <meta name="description" content="BuildAfrica.org is my personal blog which focuses primarily on the convergence of the two passions in my life - technology and Africa." />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <!--<img src="http://gravatar.com/avatar/1bccce72e2d2144b9ff5ef17e8d8d239?s=150" height="75" width="75" class="avatar" />-->
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="fname">Build</span>
+        <span id="lname">Africa</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/mberg" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/mberg" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/about.html">about</a></li>
+        <li><a href="/posts.html">posts</a></li>
+	<li><a href="/projects.html">projects</a></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="content">
+  <h1>
+    <a href="/2011/01/05/2011-m4d-tech-trends">M4D Tech Trends 2011: What to expect and hope for</a>
+  </h1>
+
+  <section class="byline">
+    January  5, 2011
+  </section>
+
+  <p><strong>Commoditization of Mobile Based Data Collection</strong></p>
+
+<p>With the growth and maturation of XForm authoring tools and mobile clients like <a href="http://opendatakit.org/">ODK</a> (my choice for best/most important mobile tool in 2010), it&rsquo;s getting increasingly easy to do robust mobile based data collection.   In 2011, expect the focus to shift towards building out web backends that provide support for unified data collection (Xforms, SMS, USSD, IVR) with greatly improved analytic and reporting capabilities.   As a result, expect to see a lot more turnkey tools/services similar to <a href="http://opendatakit.org/">EpiSurveyor.org</a>.  I wouldn&rsquo;t be shocked even to see Google offer something in this space.</p>
+
+<p><strong>First Steps with IVR</strong></p>
+
+<p>Focus will start to shift from SMS to IVR as mHealth programs expand from service providers to beneficiaries where literacy is a lingering concern.  While <a href="http://voice.opendatakit.googlecode.com/hg/war/doc/help.html">ODK Voice</a> shows a lot of initial promise and <a href="http://www.freedomfone.org/">Freedom Fone</a> continues to be worth a look,  there remains a lot of room for a new open-source tool in this space.   My guess is that it’ll be built using <a href="http://www.freeswitch.org/">FreeSwitch</a> (not <a href="http://www.asterisk.org/">Asterisk</a>) to support a local webservice offering similar, albeit more limited, functionalities to <a href="http://www.twilio.com/">Twilio</a> or <a href="http://www.voxeo.com/">Voxeo</a>.</p>
+
+<p><strong>REST APIs for OpenMRS</strong></p>
+
+<p>If you&rsquo;ve ever developed an mHealth application, you quickly realize you really don&rsquo;t want to build your own medical record system.  Things get complicated very quickly which is why the existence of platforms like <a href="http://www.openmrs.org">OpenMRS</a> is a very good thing.   OpenMRS, however,  has been strongly hindered by a lack of  web API&rsquo;s which makes building applications upon it difficult.  This in turn has greatly limited the scope of how OpenMRS has currently been used.  REST APIs are on the road map for v1.9 coming later this spring.   With robust APIs, OpenMRS should be more accessible and flexible as a platform and in turn greatly expand it&rsquo;s community of users.  Until then, I like many potential users, will continue to dip my toes in the water despite wanting to dive in.  If by 2012, I&rsquo;m still waiting, I&rsquo;ll probably start looking for a new swimming hole.</p>
+
+<p><strong>XForms and CouchDB</strong></p>
+
+<p>Expect to hear this combo increasingly.  They just make a lot of sense together.</p>
+
+<p><strong>Direct to Client Services First  to Reach Scale</strong></p>
+
+<p>Direct to client programs that incorporate SMS, USSD, IVR and &ldquo;Please Call Me&rsquo;s&rdquo; could start to reach scale in 2011 that could reach into the millions.  Groups like  <a href="http://www.texttochange.org/">Text to Change</a> and the <a href="http://www.praekeltfoundation.org/">Praekelt Foundation</a> are starting to receive the funding necessary  to bring their approaches to the masses.  If positive impacts can be shown at scale, we&rsquo;ll see rapid growth as donor&rsquo;s jump into this space.</p>
+
+<p><strong>Building Block Webservices</strong></p>
+
+<p>There will continue to be a lot of talk around the need of an &ldquo;enterprise architecture&rdquo; in mHealth.  While good, I think the growth towards this will be organic in the form of common web services that will attempt to bring order to the increasingly fractured mHealth ecosystem emerging in many countries.   This would include services like a central mother and child registry providing each beneficiary a unique ID allowing them to be tracked across the health system.  I&rsquo;m not sure such a service could be built or deployed by the end of 2011 but the realization for the need of such a service will likely grow.</p>
+
+<p><strong>Community Health Platforms</strong></p>
+
+<p>Expect to see a lot less discussion about the differences in particular platforms (<a href="http://www.dimagi.com/commcare/">CommCare</a>, <a href="http://www.childcount.org">ChildCount+</a>, <a href="http://medicmobile.org/">FrontlineSMS:Medic</a>, <a href="http://projectmwana.posterous.com/">Mwana</a>, <a href="http://www.grameenfoundation.applab.org/section/ghana-health-worker-project">MoTeCH</a>) and a lot more on more discusion on content and methodologies.   In terms of functionality and to some extent underlying technology, many elements of the different platforms will converge.  As the tools improve, the challenge really shifts to figuring what works and what doesn&rsquo;t and how can technology best be used to create value.  As a result, the realtime sharing of experiences, like on the incredible <a href="http://groups.google.com/group/ict4chw?pli=1">ICT4CHW</a> mailing list, will only grow more important.   Groups like <a href="http://www.tiyatienhealth.org">Tiyaten Health</a>, with little current technical knowledge but a lot of domain expertise,  will become increasingly key to demonstrating mHealth success.</p>
+
+<p>Functionally and technically, expect to see a lot of work done to strengthen the link between clinic and CHW programs to close the loop on things like referral tracking.  Tools like <a href="http://code.google.com/p/opendatakit/wiki/ODKClinic">ODK Clinic</a> and <a href="http://www.dimagi.com/bhoma/">Bhoma</a> linked to an OpenMRS backend (pending APIs) will really drive this.</p>
+
+<p><strong>This year&rsquo;s Ushahidi?</strong></p>
+
+<p>It&rsquo;s hard to imagine a breakout project capturing the public imagination like Ushahidi has this year (even though I think the iHub is the bigger innovation).  To me there are no clear or apparent frontrunners.  Perhaps 2011 is meant to be more incremental.</p>
+
+<p>What has me most excited is <a href="http://shreddr.org/">Shreddr</a>, a project created by Kuang Chen, a PhD student at Berkeley.  What Shreddr allows is to take a picture or scan of a filled out form and shred into individualized data components representing individual parameters of that form.  These form elements can be combined with OCR and presented in a way that changes the dynamics of digitization of paper forms from data entry to data validation.    Furthermore, since the forms are shredded, forms containing sensitive medical records could safely be farmed out in the form of microtasks for a local CHW or retiree sitting in Iowa to complete.</p>
+
+<p><strong>This year&rsquo;s mHealth?</strong></p>
+
+<p>ICT4Ag.  Mobiles have tremendous unexplored potential to improve the livelihoods of small scale farmers.  Applications like <a href="http://kilimosalama.wordpress.com/2010/03/05/kilimo-salama-video-2/">Kilimo Salama</a> show the use of mobiles is not just limited to providing market price information to farmers.  As for me, I&rsquo;m going to be shifting some of my thinking in 2011 to farms. <strong> </strong>They are a lot easier to count and don&rsquo;t move around!</p>
+
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <a href="https://twitter.com/mberg" target="_blank">
+        <img src="http://gravatar.com/avatar/1bccce72e2d2144b9ff5ef17e8d8d239?s=142" height="50" width="50" />
+      </a>
+
+      <p>
+        I'm a technologist/geek living in Nairobi, Kenya. I believe open code and data can make the world a better place. <a href="https://twitter.com/mberg" target="_blank">Follow me on Twitter</a>;
+      </p>
+
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="mberg">Tweet</a>
+      <a href="http://twitter.com/mberg" class="twitter-follow-button" data-show-count="false">Follow @mberg</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'buildafrica'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+</section>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83697-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>

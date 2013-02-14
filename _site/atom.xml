@@ -4,7 +4,7 @@
  <title>Build Africa</title>
  <link href="http://buildafrica.org/atom.xml" rel="self"/>
  <link href="http://buildafrica.org/"/>
- <updated>2013-02-14T10:51:45+03:00</updated>
+ <updated>2013-02-14T10:56:18+03:00</updated>
  <id>http://buildafrica.org</id>
  <author>
    <name>Build Africa</name>
@@ -13,9 +13,9 @@
  
  <entry>
    <title>BuildAfrica Reboot</title>
-   <link href="http://buildafrica.org/posts/2013/02/13/buildafrica-reboot"/>
+   <link href="http://buildafrica.org/2013/02/13/buildafrica-reboot"/>
    <updated>2013-02-13T00:00:00+03:00</updated>
-   <id>http://buildafrica.org/posts/2013/02/13/buildafrica-reboot</id>
+   <id>http://buildafrica.org/2013/02/13/buildafrica-reboot</id>
    <content type="html">&lt;p&gt;BuildAfrica.org has admittedly been ideal for a long time.  I experimented in shifting my blogging to a tumblr site at &lt;a href=&quot;http://mattberg.org&quot;&gt;mattberg.org&lt;/a&gt; but quickly became a bit frustrated with tumblr. As part of a personal quest, to see how much of my life I can use &lt;a href=&quot;http://github.com/mberg&quot;&gt;github&lt;/a&gt; to manage I decided to use this as a chance to learn Jekyll and reboot my blog.&lt;/p&gt;
 
 &lt;p&gt;Upon the advice of many, I&amp;rsquo;ve decided to go back to using &lt;a href=&quot;http://buildafrica.org&quot;&gt;buildafrica.org&lt;/a&gt; as my primary blog as I&amp;rsquo;ve used it for over a decade and represents what I am about.  &lt;a href=&quot;http://mattberg.org&quot;&gt;mattberg.org&lt;/a&gt; might possibly be used as a personal reference site to host my CV, etc.  We&amp;rsquo;ll see.&lt;/p&gt;
@@ -30,9 +30,9 @@
  
  <entry>
    <title>mHealth: Time to get Social!</title>
-   <link href="http://buildafrica.org/posts/2012/06/12/mhealth-time-to-get-social"/>
+   <link href="http://buildafrica.org/2012/06/12/mhealth-time-to-get-social"/>
    <updated>2012-06-12T00:00:00+03:00</updated>
-   <id>http://buildafrica.org/posts/2012/06/12/mhealth-time-to-get-social</id>
+   <id>http://buildafrica.org/2012/06/12/mhealth-time-to-get-social</id>
    <content type="html">&lt;p&gt;I’m back in Mysore, India were where we are focusing on trying to get the initial release of our Drishti app for Auxiliary Nurse Midwives (ANMs) out.  I’ll write more about Project Drishti later but it’s wonderful to be back, knee deep with my amazing team in service/system design, one of the things I like best.&lt;/p&gt;
 
 &lt;p&gt;One of the things that struck us, as we reviewed our system design, is we that completely overlooked one of the key needs expressed by the ANMs – to make it easier to communicate &amp;ndash; to coordinate and share information between other.  Or in other words, be more social.&lt;/p&gt;
@@ -73,9 +73,9 @@
  
  <entry>
    <title>M4D Tech Trends 2011: What to expect and hope for</title>
-   <link href="http://buildafrica.org/posts/2011/01/05/2011-m4d-tech-trends"/>
+   <link href="http://buildafrica.org/2011/01/05/2011-m4d-tech-trends"/>
    <updated>2011-01-05T06:38:01+03:00</updated>
-   <id>http://buildafrica.org/posts/2011/01/05/2011-m4d-tech-trends</id>
+   <id>http://buildafrica.org/2011/01/05/2011-m4d-tech-trends</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Commoditization of Mobile Based Data Collection&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;With the growth and maturation of XForm authoring tools and mobile clients like &lt;a href=&quot;http://opendatakit.org/&quot;&gt;ODK&lt;/a&gt; (my choice for best/most important mobile tool in 2010), it&amp;rsquo;s getting increasingly easy to do robust mobile based data collection.   In 2011, expect the focus to shift towards building out web backends that provide support for unified data collection (Xforms, SMS, USSD, IVR) with greatly improved analytic and reporting capabilities.   As a result, expect to see a lot more turnkey tools/services similar to &lt;a href=&quot;http://opendatakit.org/&quot;&gt;EpiSurveyor.org&lt;/a&gt;.  I wouldn&amp;rsquo;t be shocked even to see Google offer something in this space.&lt;/p&gt;
@@ -120,9 +120,9 @@
  
  <entry>
    <title>I'm with Coco! My thoughts on being named to the Time 100 List</title>
-   <link href="http://buildafrica.org/posts/2010/04/29/thoughts-on-time-100"/>
+   <link href="http://buildafrica.org/2010/04/29/thoughts-on-time-100"/>
    <updated>2010-04-29T18:08:40+03:00</updated>
-   <id>http://buildafrica.org/posts/2010/04/29/thoughts-on-time-100</id>
+   <id>http://buildafrica.org/2010/04/29/thoughts-on-time-100</id>
    <content type="html">&lt;p&gt;Before starting, I would like just like to thank everyone for your amazingly kind words and your continuous support.  Your words mean an incredible amount as they come from people I admire so much.  This is a deeply humbling experience that means a lot both to my family and myself.  So before I say anything else, thank you very much.  I&amp;rsquo;m overwhelmed by your kindness.&lt;/p&gt;
 
 &lt;p&gt;This recognition would not have been possible without the support of an incredible community of innovators, activists and friends whose passion and commitment to their work is not only an inspiration but important as their thoughts and actions are changing the way we think fundamentally about problems and how we can address them.   It’s amazing to work in a community where open-collaboration and sharing ideas take precedence to personal accolades and where each other’s work, successes and even failures are celebrated. Whatever we accomplish, &lt;strong&gt;we do so standing on the shoulders of friends&lt;/strong&gt;.  I hope you see this recognition, as I do, as an incredible validation of our work.&lt;/p&gt;
@@ -153,9 +153,9 @@
  
  <entry>
    <title>William Kamkwamba Windmill Maker - Maker Faire Africa 2009</title>
-   <link href="http://buildafrica.org/posts/2009/08/15/william-kamkwamba-windmill-maker-maker-faire-africa-2009"/>
+   <link href="http://buildafrica.org/2009/08/15/william-kamkwamba-windmill-maker-maker-faire-africa-2009"/>
    <updated>2009-08-15T06:45:24+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/08/15/william-kamkwamba-windmill-maker-maker-faire-africa-2009</id>
+   <id>http://buildafrica.org/2009/08/15/william-kamkwamba-windmill-maker-maker-faire-africa-2009</id>
    <content type="html">&lt;p&gt;One of the real highlights thus far at &lt;a href=&quot;http://makerfaireafrica.com/&quot;&gt;Maker Faire Africa 2009&lt;/a&gt; has been the presence of &lt;a href=&quot;http://williamkamkwamba.com/&quot;&gt;William Kamkwamba&lt;/a&gt;. William is a remarkable young inventor from rural Malawi, who at the age of 14, built his first windmill out of scrap parts (including his father&amp;rsquo;s bike) after learning about one in a book.  William&amp;rsquo;s simple message of not letting your goals be defined by constraints is inspirational and resonated particularly powerful with the other African maker&amp;rsquo;s in attendance at Maker Faire.&lt;/p&gt;
 
 &lt;p&gt;Expect to hear more from William this year as he is about to release a book, &lt;a href=&quot;http://www.amazon.com/Boy-Who-Harnessed-Wind-Electricity/dp/0061730327&quot;&gt;The Boy Who Harnessed the Wind&lt;/a&gt;, which comes out September 29th.  I expect it to be very popular as his is a story that particularly deserves telling.&lt;/p&gt;
@@ -166,9 +166,9 @@
  
  <entry>
    <title>Africa Ready to Code</title>
-   <link href="http://buildafrica.org/posts/2009/08/02/africa-ready-to-code"/>
+   <link href="http://buildafrica.org/2009/08/02/africa-ready-to-code"/>
    <updated>2009-08-02T11:09:44+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/08/02/africa-ready-to-code</id>
+   <id>http://buildafrica.org/2009/08/02/africa-ready-to-code</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http:/wp-content/uploads/2009/08/readytocode.png&quot;&gt;&lt;img src=&quot;/images/posts/readytocode.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I am writing this from Kisumu, Kenya.  I&amp;rsquo;m here to follow up on the progress being made with the &lt;a href=&quot;http://buildafrica.org/2009/07/09/introducing-rapidresponse/&quot;&gt;RapidResponse Pilot&lt;/a&gt; and to work with Dickson Ukanga, a talented young Kenyan programmer, I just hired.&lt;/p&gt;
@@ -191,9 +191,9 @@
  
  <entry>
    <title>Introducing RapidResponse a mHealth Platform built with RapidSMS</title>
-   <link href="http://buildafrica.org/posts/2009/07/09/introducing-rapidresponse"/>
+   <link href="http://buildafrica.org/2009/07/09/introducing-rapidresponse"/>
    <updated>2009-07-09T07:09:13+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/07/09/introducing-rapidresponse</id>
+   <id>http://buildafrica.org/2009/07/09/introducing-rapidresponse</id>
    <content type="html">&lt;p&gt;I&amp;rsquo;m very proud to announce RapidResponse, a mHealth platform built with RapidSMS.  This is a project that I have been working to develop at the Earth Institute with Professor &lt;a href=&quot;http://www.me.columbia.edu/fac-bios/modi/lab.html&quot;&gt;Vijay Modi&lt;/a&gt; in collaboration with &lt;a href=&quot;http://www.unicefinnovation.org&quot;&gt;UNICEF Innovation team&lt;/a&gt; and a number of other partners for the Millennium Villages Project.&lt;/p&gt;
 
 &lt;p&gt;The idea for RapidResponse originated from a conversation with Jessica Fanzo, an amazing nutritionist that I am lucky enough to work with. We spoke at length about a program called &lt;a href=&quot;http://www.fantaproject.org/cmam/training.shtml&quot;&gt;Community-Based Management of Acute Malnutrition (CMAM)&lt;/a&gt; that she was interested in implementing in the Millennium Villages.  At that time, I was increasingly involved with the UNICEF team on the development of RapidSMS. CMAM struck me as a great example of medical system that we could support with technology.  I wanted to avoid the trap of creating a use case around a technology that we were keen to deploy. As a result, RapidResponse was originally designed to provide support for the management of a CMAM program deployed primarily by Community Health Workers (CHWs).   It has since morphed to include support for malaria and diarrhea screening two other major killers of children under five in Africa.&lt;/p&gt;
@@ -212,9 +212,9 @@
  
  <entry>
    <title>Rethinking the term "Solar Systems"</title>
-   <link href="http://buildafrica.org/posts/2009/06/15/rethinking-the-term-solar-systems"/>
+   <link href="http://buildafrica.org/2009/06/15/rethinking-the-term-solar-systems"/>
    <updated>2009-06-15T20:34:47+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/06/15/rethinking-the-term-solar-systems</id>
+   <id>http://buildafrica.org/2009/06/15/rethinking-the-term-solar-systems</id>
    <content type="html">&lt;p&gt;I had a really interesting discussion at work with my boss &lt;a href=&quot;http://www.me.columbia.edu/fac-bios/modi/lab.html&quot;&gt;Vijay Modi&lt;/a&gt; and some colleagues about the real costs of an off-grid &amp;ldquo;solar&amp;rdquo; systems.  The perception is often that solar panels make up the bulk of the cost of an off-grid system.  The reality, however, with any time horizon over three years is that the cost of batteries will be the biggest determining factor of cost over time.  It is for this reason, that &lt;a href=&quot;http://books.google.com/books?id=nPfp9CgTDxcC&amp;amp;dq=mark+hankins+solar&amp;amp;printsec=frontcover&amp;amp;source=bl&amp;amp;ots=vZ4Nyb8AWz&amp;amp;sig=92q7cBRPhepa8fevtinIVW_RUeI&amp;amp;hl=en&amp;amp;ei=tv42SuSlFM60twe158zeDA&amp;amp;sa=X&amp;amp;oi=book_result&amp;amp;ct=result&amp;amp;resnum=3&quot;&gt;Mark Hankin&amp;rsquo;s&lt;/a&gt; argues that off-grid system should not be called &amp;ldquo;solar systems&amp;rdquo; but rather &lt;strong&gt;battery-based systems&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you consider that most off-grid systems in Africa fail after three years, this term is unfortunately even more appropriate.&lt;/p&gt;
@@ -223,9 +223,9 @@
  
  <entry>
    <title>Quick Hits {20090610}</title>
-   <link href="http://buildafrica.org/posts/2009/06/09/quick-hits-20090610"/>
+   <link href="http://buildafrica.org/2009/06/09/quick-hits-20090610"/>
    <updated>2009-06-09T23:08:15+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/06/09/quick-hits-20090610</id>
+   <id>http://buildafrica.org/2009/06/09/quick-hits-20090610</id>
    <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.nhpr.org/node/25400&quot;&gt;Nice Interview&lt;/a&gt; by Sean Blaschke on New Hampshire Public Radio on the Columbia/UNICEF Malawi Malnutrition Monitoring pilot using &lt;a href=&quot;http://www.rapidsms.org&quot;&gt;RapidSMS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Useful &lt;a href=&quot;http://gkpnet.org/events/calendar/calendar.do&quot;&gt;ICT4D Calendar &lt;/a&gt;by GKPNet&lt;/li&gt;
@@ -241,9 +241,9 @@
  
  <entry>
    <title>MVP ICT "Village Network" Talk</title>
-   <link href="http://buildafrica.org/posts/2009/05/14/mvp-ict-village-network-talk"/>
+   <link href="http://buildafrica.org/2009/05/14/mvp-ict-village-network-talk"/>
    <updated>2009-05-14T09:37:28+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/05/14/mvp-ict-village-network-talk</id>
+   <id>http://buildafrica.org/2009/05/14/mvp-ict-village-network-talk</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://vimeo.com/4061711&quot;&gt;Matt Berg &amp;ndash; Millennium Villages Student Research Showcase&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/ei&quot;&gt;Earth Institute&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here is a brief talk I gave at a recent research showcase at Columbia.  In it I discuss how we brought Internet connectivity to Ruhiira our rural community in Uganda using a large wifi network that we put in place with the help of &lt;a href=&quot;http://www.inveneo.org&quot;&gt;Inveneo&lt;/a&gt;.  The network is currently being used to connect about 5 clinics, 3 schools and several other community institutions to the nearest Internet connection 35KM away.  As a local intranet, the network is adding tremendous value by enabling free VOIP calls between sites and is also being used by the clinics to facilitate a central medical records system.&lt;/p&gt;
@@ -254,9 +254,9 @@
  
  <entry>
    <title>Off-Grid Solar Calculator</title>
-   <link href="http://buildafrica.org/posts/2009/05/03/off-grid-solar-calculator"/>
+   <link href="http://buildafrica.org/2009/05/03/off-grid-solar-calculator"/>
    <updated>2009-05-03T11:48:44+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/05/03/off-grid-solar-calculator</id>
+   <id>http://buildafrica.org/2009/05/03/off-grid-solar-calculator</id>
    <content type="html">&lt;p&gt;Part of my job over the past couple of years has entailed doing energy sizing for off-grid photo voltaic (PV) solar systems.  To help with this I have relied largely on an excel-based &lt;a href=&quot;http://www.buildafrica.org/files/solar_toolkit.xls&quot;&gt;solar calculator&lt;/a&gt; that I created.  I thought it might be useful to share.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -278,9 +278,9 @@
  
  <entry>
    <title>Pictures from Mali</title>
-   <link href="http://buildafrica.org/posts/2009/03/16/pictures-from-mali"/>
+   <link href="http://buildafrica.org/2009/03/16/pictures-from-mali"/>
    <updated>2009-03-16T11:23:35+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/03/16/pictures-from-mali</id>
+   <id>http://buildafrica.org/2009/03/16/pictures-from-mali</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://vimeo.com/3654117&quot;&gt;Mali&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/user1435325&quot;&gt;BuildAfrica&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here is a montage of pictures I took during the two years I lived in Mali &amp;ndash;  in my mind one of the most beautiful and culturally rich places you could have the fortune to experience.&lt;/p&gt;
@@ -289,9 +289,9 @@
  
  <entry>
    <title>Toys from Trash</title>
-   <link href="http://buildafrica.org/posts/2009/03/08/toys-from-trash"/>
+   <link href="http://buildafrica.org/2009/03/08/toys-from-trash"/>
    <updated>2009-03-08T23:23:57+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/03/08/toys-from-trash</id>
+   <id>http://buildafrica.org/2009/03/08/toys-from-trash</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http:/wp-content/uploads/2009/03/arvindgupta.jpg&quot;&gt;&lt;img src=&quot;http://buildafrica.org/wp-content/uploads/2009/03/arvindgupta-575x394.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Photo and quotes from &lt;a href=&quot;http://vidyaonline.org/arvindgupta/toimirrorfeb09.pdf&quot;&gt;Toy Story&lt;/a&gt; Times of India story&lt;/em&gt;&lt;/p&gt;
@@ -306,9 +306,9 @@
  
  <entry>
    <title>Leveraging Internet with Radio</title>
-   <link href="http://buildafrica.org/posts/2009/02/25/leveraging-internet-with-radio"/>
+   <link href="http://buildafrica.org/2009/02/25/leveraging-internet-with-radio"/>
    <updated>2009-02-25T23:50:28+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/02/25/leveraging-internet-with-radio</id>
+   <id>http://buildafrica.org/2009/02/25/leveraging-internet-with-radio</id>
    <content type="html">&lt;p&gt;Within ICT4D practice, there seems to be little debate, at least when you look at implementation funding, that bringing Internet to rural areas in places like Africa that had been previously &amp;ldquo;cut off&amp;rdquo; is good idea and potentially transformative.   Until recently more recently, &amp;ldquo;bringing the Internet&amp;rdquo; has meant usually plunking down a VSAT, setting up a small computer lab and hoping someday that one day it will become sustainable.&lt;/p&gt;
 
 &lt;p&gt;Despite being by and large, unsustainable, such projects are still difficult and are important from a symbolic standpoint and do serve as a temporary bridge in some ways for the digital divide.  The problem that is even harder to address is accessibility.  How many people actually get to access the Internet on the computers and when then they do are they using it in a way that&amp;rsquo;s socially beneficial?&lt;/p&gt;
@@ -343,9 +343,9 @@
  
  <entry>
    <title>Offline Wikipedias</title>
-   <link href="http://buildafrica.org/posts/2009/02/06/offline-wikipedias"/>
+   <link href="http://buildafrica.org/2009/02/06/offline-wikipedias"/>
    <updated>2009-02-06T00:03:59+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/02/06/offline-wikipedias</id>
+   <id>http://buildafrica.org/2009/02/06/offline-wikipedias</id>
    <content type="html">&lt;p&gt;Offline wikipedias represent an important source for information for places that have no/unreliable/expensive or censored Internet.  I would like to highlight two projects that I have experience with.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;SOS School Wikipedia&lt;/strong&gt;&lt;/p&gt;
@@ -378,9 +378,9 @@
  
  <entry>
    <title>Google Gears = Offline Gmail = Killer African Web App</title>
-   <link href="http://buildafrica.org/posts/2009/02/02/google-gears-offline-gmail-better-african-user-experience"/>
+   <link href="http://buildafrica.org/2009/02/02/google-gears-offline-gmail-better-african-user-experience"/>
    <updated>2009-02-02T22:37:49+03:00</updated>
-   <id>http://buildafrica.org/posts/2009/02/02/google-gears-offline-gmail-better-african-user-experience</id>
+   <id>http://buildafrica.org/2009/02/02/google-gears-offline-gmail-better-african-user-experience</id>
    <content type="html">&lt;p&gt;Earlier this week with little fanfare, Google enabled browser based, &lt;a href=&quot;http://gmailblog.blogspot.com/2009/01/new-in-labs-offline-gmail.html&quot;&gt;offline access&lt;/a&gt; to Gmail.  While this is exciting for all of us who who have long yearned to ditch our desktop email clients, the ability to now access webservices like Gmail, even when we are offline, has enormous implications towards improving the way people living in Africa will now be able to access the Internet.&lt;/p&gt;
 
 &lt;p&gt;While things are rapidly improving, connecting to the Internet in Africa can still be a painfully slow experience in most places &amp;ndash; the result of over-shared bandwidth, poorly managed backbones and the high latency of satellite jumps.  All this contributes to a very unstable connection, one that handles things like Ajax requests poorly resulting in a lot of time outs that plague many Web2.0 applications.  It&amp;rsquo;s clear that many modern web apps weren&amp;rsquo;t designed with African Internet conditions in mind.&lt;/p&gt;
@@ -402,9 +402,9 @@
  
  <entry>
    <title>The Geekcorps CanTV</title>
-   <link href="http://buildafrica.org/posts/2006/11/10/geekcorps-cantv"/>
+   <link href="http://buildafrica.org/2006/11/10/geekcorps-cantv"/>
    <updated>2006-11-10T10:28:44+03:00</updated>
-   <id>http://buildafrica.org/posts/2006/11/10/geekcorps-cantv</id>
+   <id>http://buildafrica.org/2006/11/10/geekcorps-cantv</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Geekcorps CanTV Project&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;In November, 2006 Geekcorps did a CanTV pilot in Bourem Inaly, a small village on the Niger river about 35KM from Tombouctou in northern Mali.  Our hope was to pilot a new technology we had developed to see if it could be used to generate revenue for the community radio station we had been working with there.&lt;/p&gt;
@@ -421,9 +421,9 @@
  
  <entry>
    <title>Cultural Iceberg</title>
-   <link href="http://buildafrica.org/posts/2005/06/25/cultural-iceberg"/>
+   <link href="http://buildafrica.org/2005/06/25/cultural-iceberg"/>
    <updated>2005-06-25T09:46:19+03:00</updated>
-   <id>http://buildafrica.org/posts/2005/06/25/cultural-iceberg</id>
+   <id>http://buildafrica.org/2005/06/25/cultural-iceberg</id>
    <content type="html">&lt;p&gt;Recently, I had the opportunity to go through a brief cultural orientation held by the talented folks at &lt;a href=&quot;http://www.acibaobob.org&quot;&gt;ACI Baobob Center&lt;/a&gt; in Dakar.  During the meeting, besides learning a couple of basic words in Wolof and eating a traditional meal around the &amp;ldquo;bowl&amp;rdquo; we are introduced to an incredible cultural orientations model that attempts to explain cultural interaction with the analogy of an iceberg.   I found ACI&amp;rsquo;s interpreation of the&quot;iceberg&quot; model, which was first introduced in 1995 in the book &lt;a href=&quot;http://www.amazon.com/exec/obidos/redirect?tag=buildafricaor-20%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0071378324%2526tag=buildafricaor-20%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0071378324%25253FSubscriptionId=0EMV44A9A5YT1RVDGZ82&quot;&gt;Doing Business Internationally&lt;/a&gt;, to be an extremely effective model for attempting to understand cultural perspective and I&amp;rsquo;m frankly quite shocked that after +$180K and two college degrees later (from great international schools) I hadn&amp;rsquo;t come across this model.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;How it works&lt;/strong&gt;&lt;/p&gt;
