@@ -19,6 +19,7 @@
   <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
   <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'> 
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript" src="/js/application.js"></script>
@@ -27,7 +28,7 @@
 <body>
   <section class="sidebar">
     <a href="/">
-      <img src="http://gravatar.com/avatar/1bccce72e2d2144b9ff5ef17e8d8d239?s=150" height="75" width="75" class="avatar" />
+      <!--<img src="http://gravatar.com/avatar/1bccce72e2d2144b9ff5ef17e8d8d239?s=150" height="75" width="75" class="avatar" />-->
     </a>
 
     <section class="name">
@@ -47,6 +48,7 @@
       <ul>
         <li><a href="/about.html">about</a></li>
         <li><a href="/posts.html">posts</a></li>
+	<li><a href="/projects.html">projects</a></li>
       </ul>
     </section>
   </section>
@@ -56,6 +58,21 @@
 
   <p>Sorry! Couldn't find that page. Bummer.</p>
 </section>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83697-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 
 </html>

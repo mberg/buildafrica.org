@@ -5,8 +5,12 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 a {
-  color: #227ce8; }
-
+  color:#227ce8;
+text-decoration: none;
+}
+a:hover {
+  color: #FF8000;
+}
 .sidebar {
   position: fixed;
   left: 15px;
@@ -23,18 +27,18 @@ a {
     margin-left: 2px;
     border-radius: 5px; }
   .sidebar .name {
+    font-family: "Armata";
     text-transform: uppercase;
     margin: 10px 0 20px 0; }
     .sidebar .name #fname {
       padding-left: 1px;
-      font-size: 23px;
-      letter-spacing: 5px;
-      color: black; }
-    .sidebar .name #lname {
-      font-size: 17px;
+      font-size: 26px;
       font-weight: bold;
-      letter-spacing: 1px;
-      color: black; }
+      color: green; }
+    .sidebar .name #lname {
+      font-size: 22px;
+      font-weight: bold;
+      color: #FF8000; }
   .sidebar .meta a {
     margin-left: 0px;
     color: black; }
@@ -43,6 +47,7 @@ a {
   .sidebar .sections {
     margin: 15px 0 0 0; }
     .sidebar .sections a {
+      font-family: "Armata";
       padding: 3px 0;
       color: black;
       font-weight: bold;
@@ -64,8 +69,9 @@ a {
   margin-bottom: 50px; }
   .content td {
     color: #333;
-    font-family: "Helvetica", sans-serif;
-    font-size: 14px;
+    font-family: "Armata","Helvetica", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
    }
 
 

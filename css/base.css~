@@ -5,8 +5,7 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 a {
-  color: #227ce8; }
-
+  color:#227ce8;}
 .sidebar {
   position: fixed;
   left: 15px;
@@ -23,18 +22,18 @@ a {
     margin-left: 2px;
     border-radius: 5px; }
   .sidebar .name {
+    font-family: "Armata";
     text-transform: uppercase;
     margin: 10px 0 20px 0; }
     .sidebar .name #fname {
       padding-left: 1px;
-      font-size: 23px;
-      letter-spacing: 5px;
-      color: black; }
-    .sidebar .name #lname {
-      font-size: 17px;
+      font-size: 26px;
       font-weight: bold;
-      letter-spacing: 1px;
-      color: black; }
+      color: green; }
+    .sidebar .name #lname {
+      font-size: 22px;
+      font-weight: bold;
+      color: #FF8000; }
   .sidebar .meta a {
     margin-left: 0px;
     color: black; }
@@ -62,6 +61,13 @@ a {
   margin-left: 140px;
   margin-right: 20px;
   margin-bottom: 50px; }
+  .content td {
+    color: #333;
+    font-family: "Helvetica", sans-serif;
+    font-size: 14px;
+   }
+
+
   .content h1 {
     color: #333;
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
@@ -201,3 +207,16 @@ a {
     font-weight: bold; }
   .content .talk-design .color .white {
     color: #fff; }
+
+.footer {
+  background: #FFF9EE;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.footer .archives { 
+  margin-left: 140px;
+  margin-right: 20px;
+  font-size: 10px;
+
+}
