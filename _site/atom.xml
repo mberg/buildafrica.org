@@ -4,7 +4,7 @@
  <title>Build Africa</title>
  <link href="http://buildafrica.org/atom.xml" rel="self"/>
  <link href="http://buildafrica.org/"/>
- <updated>2013-02-14T10:40:27+03:00</updated>
+ <updated>2013-02-14T10:51:45+03:00</updated>
  <id>http://buildafrica.org</id>
  <author>
    <name>Build Africa</name>
@@ -25,6 +25,49 @@
 &lt;p&gt;The site design is still a very much a work in progress. For now, I&amp;rsquo;m just using a fork of Zach Holman&amp;rsquo;s Jeykll theme called &lt;a href=&quot;https://github.com/holman/left&quot;&gt;Left&lt;/a&gt;. I decided to host this as a static site on S3 after some struggles with github page configurations.  To do this I highly recommend following this great &lt;a href=&quot;http://vvv.tobiassjosten.net/development/jekyll-blog-on-amazon-s3-and-cloudfront/&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;So for now my inner geek is happy. I can manage all my site content in github and do all work via the command line. :)  Check back later for hopefully some actual content.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>mHealth: Time to get Social!</title>
+   <link href="http://buildafrica.org/posts/2012/06/12/mhealth-time-to-get-social"/>
+   <updated>2012-06-12T00:00:00+03:00</updated>
+   <id>http://buildafrica.org/posts/2012/06/12/mhealth-time-to-get-social</id>
+   <content type="html">&lt;p&gt;I’m back in Mysore, India were where we are focusing on trying to get the initial release of our Drishti app for Auxiliary Nurse Midwives (ANMs) out.  I’ll write more about Project Drishti later but it’s wonderful to be back, knee deep with my amazing team in service/system design, one of the things I like best.&lt;/p&gt;
+
+&lt;p&gt;One of the things that struck us, as we reviewed our system design, is we that completely overlooked one of the key needs expressed by the ANMs – to make it easier to communicate &amp;ndash; to coordinate and share information between other.  Or in other words, be more social.&lt;/p&gt;
+
+&lt;p&gt;Maybe it’s because everyone is focused on the “building blocks” like mobile data collection and reminders but it struck me that one of the things not discussed enough in mHealth, mAg, etc. is why aren’t the tools we’re building more social?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/chw_broadcast.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Health Team Messaging&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the initial core features of ChildCount+ we considered, but for some reason never pursed, was to allow users to pick their own @alias (similar to twitter) and allow users to send each other direct messages or broadcast to the group &amp;ndash; at no cost via ChildCount+’s toll-free number.  It’s a feature we developed but didn’t advertise and eventually dropped – I think maybe because we were afraid of SMS costs.&lt;/p&gt;
+
+&lt;p&gt;Recently, I was speaking to my good friend Kieran Sharpey-Schafer who helped oversee UNICEF’s RapidSMS Malnutrition Monitoring project in Malawi.  He told me that they implemented an even simpler idea, just allowing CHWs to send a broadcast message to everyone in the network and he was quite taken back by the almost immediate adoption.   It quickly became the way meetings were organized, CHWs reported problems and provided encouragement.  On the rare occasions, when someone would use the list for things like sharing a soccer score, the CHWs were quick to self-police reminding the offender that this was an important channel reserved for work.&lt;/p&gt;
+
+&lt;p&gt;While obviously this particular implementation could be made more efficient it clearly worked and indicates a clear need most current mHealth systems (that I know of at least) are overlooking.&lt;/p&gt;
+
+&lt;p&gt;In India where SMS costs are extremely low, especially for aggregators, SMS group chat services have long been popular.  In India and for well-funded or state subsidized projects SMS represents a potentially good option.  The main driver, I predict, that will make mHealth more social, as what made us more social, are smartphones.  Integrating messaging directly into mHealth apps seems like such a basic and obvious win that we’ve decided to attempt this with Drishti.   One could even envision message integration to the point where it could be to refer patients to each other.&lt;/p&gt;
+
+&lt;p&gt;The other important opportunity here is the ability to provide to the health worker an up-to-date (managed) and actionable directory of other health care providers.   The ability to reach out to a specialist for advice offers is just one example of the benefit of facilitating such a network.   When I think of the potential tie in with great initiatives like Switchboard to create a national level health social network I get really excited.&lt;/p&gt;
+
+&lt;p&gt;Technically, open protocols like XMPP (which powers Google Talk) are perfectly tailored for this with a plethora of mature servers and clients to support this.&lt;/p&gt;
+
+&lt;p&gt;Health Team Messenger constitutes a proverbial “low-hanging fruit” if there ever was one.    There is also a real risk though of not acting fast.   If health workers aren’t provided the right tools, they will flock to ones like Facebook Messenger (shudder) that already exist.  Don’t laugh. It’s probably has already started to happen.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check-Ins&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another idea, probably much more controversial, but equally intriguing are check-ins, an idea popularized by services like Foursquare.&lt;/p&gt;
+
+&lt;p&gt;One of the challenges of managing an tuning a health system, especially ones that are rural and rely on voluntary or low paid extension workers, is knowing where people are.   Voluntary check-ins at clinics or households, which could be incentivized through gamification and much less draconian then GPS tracking, could provide important operational data related to health service provision.  Check-ins could also be linked to notifications or alerts such as a prompt to pick up certain medicines if their stocks are low.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, check-ins could be made required to help better ensure doctors are at work and teachers are at school.    Or it simply could be used, to let people know that the doctor is in.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Worth a deeper look&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Strategies to make mHealth more “social” is is certain to catalyze even more innovation in this fast moving space.  Consider alone the different ways social could provide additional support to patients and increase their collective voice.  The introduction of social won’t be without it’s controversy as we work to develop approaches appropriate for health.  It promises to be a long and interesting process.   Shall we get started?&lt;/p&gt;
 </content>
  </entry>
  
