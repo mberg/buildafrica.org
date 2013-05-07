@@ -1,11 +1,10 @@
 ---
 layout: default
-published: false
+published: true
 ---
 
 # Initial thoughts on the BRCK
 
-Some quick thoughts on the BRCK
 
 Ushahidi just announced the BRCK - dubbed the backup generator for your Internet.  I got to see the latest prototype from Erik and have gotten to know Reg the hardware engineer behind the project.  
 
